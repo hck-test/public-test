@@ -1,0 +1,291 @@
+{
+  "modelName": "Crossfit Gyms",
+  "collections": [
+    {
+      "GUID": "534c5700-1800-11ea-a7f4-5bb067781ebb",
+      "collectionName": "crossfit_gyms_by_city",
+      "code": "",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": [
+        {
+          "primaryKey": true,
+          "relationshipType": "",
+          "mode": "text",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": true,
+          "GUID": "538b82e0-1800-11ea-a7f4-5bb067781ebb",
+          "name": "country_code",
+          "code": "",
+          "required": true,
+          "hackoladeMeta": {},
+          "isActivated": true
+        },
+        {
+          "primaryKey": true,
+          "relationshipType": "",
+          "mode": "text",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": true,
+          "GUID": "8ab06d70-1806-11ea-a7f4-5bb067781ebb",
+          "name": "city",
+          "code": "",
+          "required": true,
+          "hackoladeMeta": {},
+          "isActivated": true
+        },
+        {
+          "primaryKey": true,
+          "relationshipType": "",
+          "mode": "text",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": true,
+          "GUID": "b4144880-1806-11ea-a7f4-5bb067781ebb",
+          "name": "state_province",
+          "code": "",
+          "required": true,
+          "hackoladeMeta": {},
+          "isActivated": true
+        },
+        {
+          "primaryKey": true,
+          "relationshipType": "",
+          "mode": "text",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositeClusteringKey": true,
+          "GUID": "e6199c90-1806-11ea-a7f4-5bb067781ebb",
+          "name": "gym_name",
+          "code": "",
+          "required": true,
+          "hackoladeMeta": {},
+          "isActivated": true
+        },
+        {
+          "primaryKey": true,
+          "childType": "timestamp",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositeClusteringKey": true,
+          "GUID": "ebcd9290-1806-11ea-a7f4-5bb067781ebb",
+          "name": "opening_date",
+          "code": "",
+          "required": true,
+          "hackoladeMeta": {},
+          "relationshipType": "",
+          "isActivated": true
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "534f6440-1800-11ea-a7f4-5bb067781ebb"
+      },
+      "collectionUsers": [],
+      "collation": {},
+      "autoCommitTime": 10000,
+      "filterCacheLowWaterMark": 1024,
+      "filterCacheHighWaterMark": 2048,
+      "ramBufferSize": 512,
+      "bucketId": "52fab490-1800-11ea-a7f4-5bb067781ebb",
+      "compositePartitionKey": [
+        {
+          "keyId": "538b82e0-1800-11ea-a7f4-5bb067781ebb",
+          "type": ""
+        },
+        {
+          "keyId": "b4144880-1806-11ea-a7f4-5bb067781ebb",
+          "type": ""
+        },
+        {
+          "keyId": "8ab06d70-1806-11ea-a7f4-5bb067781ebb",
+          "type": ""
+        }
+      ],
+      "compositeClusteringKey": [
+        {
+          "keyId": "ebcd9290-1806-11ea-a7f4-5bb067781ebb",
+          "type": "ascending"
+        },
+        {
+          "keyId": "e6199c90-1806-11ea-a7f4-5bb067781ebb",
+          "type": "ascending"
+        }
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "collectionName": false
+        }
+      },
+      "tableIfNotExist": true,
+      "isActivated": true
+    }
+  ],
+  "buckets": [
+    {
+      "GUID": "52fab490-1800-11ea-a7f4-5bb067781ebb",
+      "name": "new_keyspace",
+      "code": "",
+      "type": "bucket",
+      "collectionIds": [
+        "534c5700-1800-11ea-a7f4-5bb067781ebb"
+      ],
+      "backgroundColor": {
+        "r": 216,
+        "g": 0,
+        "b": 115,
+        "a": 1
+      },
+      "show": true,
+      "indexes": [],
+      "replStrategy": "SimpleStrategy",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": false
+        }
+      },
+      "addToCqlScript": true,
+      "keyspaceIfNotExist": true,
+      "isActivated": true
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "52fab490-1800-11ea-a7f4-5bb067781ebb": "new_keyspace",
+    "534c5700-1800-11ea-a7f4-5bb067781ebb": "crossfit_gyms_by_city",
+    "538b82e0-1800-11ea-a7f4-5bb067781ebb": "country_code",
+    "8ab06d70-1806-11ea-a7f4-5bb067781ebb": "city",
+    "b4144880-1806-11ea-a7f4-5bb067781ebb": "state_province",
+    "e6199c90-1806-11ea-a7f4-5bb067781ebb": "gym_name",
+    "ebcd9290-1806-11ea-a7f4-5bb067781ebb": "opening_date"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "51e4d7c1-1800-11ea-a7f4-5bb067781ebb"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "fff32dc9-6cd6-4bf8-9517-64399105bc6a"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "51e4d7c2-1800-11ea-a7f4-5bb067781ebb"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "",
+  "dbVendor": "Cassandra",
+  "appTarget": "CASSANDRA",
+  "creationTS": "2019-12-06T08:13:44.124Z",
+  "GUID": "51e4d7c0-1800-11ea-a7f4-5bb067781ebb",
+  "code": "",
+  "lastModifTS": "2025-04-04T12:04:14.751Z",
+  "persistenceSchemaVersion": "8",
+  "description": "From example https://shermandigital.com/blog/designing-a-cassandra-data-model/",
+  "comments": "",
+  "author": "",
+  "version": "",
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
+  },
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Cassandra",
+    "pluginVersion": "0.2.11",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.1"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "534c5700-1800-11ea-a7f4-5bb067781ebb",
+            "x": 1040,
+            "y": 1070,
+            "width": 251,
+            "height": 100,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 1000,
+            "y": 1030,
+            "GUID": "52fab490-1800-11ea-a7f4-5bb067781ebb"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": false,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "GUID": "534c5700-1800-11ea-a7f4-5bb067781ebb",
+            "autoWidth": false,
+            "autoHeight": false
+          }
+        ],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
