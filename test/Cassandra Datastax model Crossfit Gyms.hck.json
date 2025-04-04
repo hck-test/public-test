@@ -141,6 +141,86 @@
       },
       "tableIfNotExist": true,
       "isActivated": true
+    },
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "text",
+          "subtype": "string",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "GUID": "6f6e5437-fbf2-4128-986e-49a0479c43eb",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "text",
+          "subtype": "string",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "GUID": "3df2cada-e9b7-4cf4-823a-1feebc8eb3ac",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "text",
+          "subtype": "string",
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "GUID": "107af44e-0e07-471a-84b4-9a7c7ff7fc24",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1fa59913-33e1-4e18-be0e-1d6010c20d1e"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "collectionUsers": [],
+      "tableIfNotExist": false,
+      "searchIndexIfNotExist": false,
+      "GUID": "081aeb62-6cc5-4a3d-b990-59a611c82d2a"
     }
   ],
   "buckets": [
@@ -182,7 +262,11 @@
     "8ab06d70-1806-11ea-a7f4-5bb067781ebb": "city",
     "b4144880-1806-11ea-a7f4-5bb067781ebb": "state_province",
     "e6199c90-1806-11ea-a7f4-5bb067781ebb": "gym_name",
-    "ebcd9290-1806-11ea-a7f4-5bb067781ebb": "opening_date"
+    "ebcd9290-1806-11ea-a7f4-5bb067781ebb": "opening_date",
+    "081aeb62-6cc5-4a3d-b990-59a611c82d2a": "new_table",
+    "6f6e5437-fbf2-4128-986e-49a0479c43eb": "new_column",
+    "3df2cada-e9b7-4cf4-823a-1feebc8eb3ac": "new_column1",
+    "107af44e-0e07-471a-84b4-9a7c7ff7fc24": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -207,7 +291,7 @@
   "creationTS": "2019-12-06T08:13:44.124Z",
   "GUID": "51e4d7c0-1800-11ea-a7f4-5bb067781ebb",
   "code": "",
-  "lastModifTS": "2025-04-04T12:04:14.751Z",
+  "lastModifTS": "2025-04-04T12:05:53.869Z",
   "persistenceSchemaVersion": "8",
   "description": "From example https://shermandigital.com/blog/designing-a-cassandra-data-model/",
   "comments": "",
@@ -237,6 +321,14 @@
             "y": 1070,
             "width": 251,
             "height": 100,
+            "color": {}
+          },
+          {
+            "GUID": "081aeb62-6cc5-4a3d-b990-59a611c82d2a",
+            "x": 1000,
+            "y": 1030,
+            "width": 202,
+            "height": 87,
             "color": {}
           }
         ],
