@@ -298,39 +298,6 @@
   ],
   "views": [
     {
-      "GUID": "c9aee3a5-c923-4020-8508-fc9abb76ff9f",
-      "name": "New view",
-      "type": "reference",
-      "$ref": "#external/definitions/New view",
-      "refType": "polyglot",
-      "ref": "da011ae6-ca67-4a5f-a790-b073174c3228",
-      "refIdPath": [
-        "3153c083-44a3-4618-87ba-0933950945b7",
-        "216a008f-78a0-487f-83a9-74c2f57cbea9",
-        "da011ae6-ca67-4a5f-a790-b073174c3228"
-      ],
-      "isActivated": true,
-      "bucketId": "884689be-c3cb-49aa-b1d3-4049f94e84d5",
-      "properties": [],
-      "definitions": {
-        "properties": [],
-        "GUID": "3a479878-f1df-42b5-bbec-e978eb2fb5da"
-      },
-      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
-      "viewOn": "4849fce5-5ad2-4c01-9624-9d1805ad88c3",
-      "error": {
-        "refPath": false
-      },
-      "referenceDiff": {
-        "properties": [
-          {
-            "GUID": "092ddd04-b048-4a85-bdd7-07460dee60bc",
-            "referenceDiffDeleted": true
-          }
-        ]
-      }
-    },
-    {
       "GUID": "72e3fb10-1299-452a-aaf1-84541d5d6589",
       "name": "New view1",
       "type": "reference",
@@ -870,11 +837,7 @@
         "type": "object",
         "definitionEntityType": "view",
         "fileType": "hackoladeSchema",
-        "definitionRefs": [
-          [
-            "c9aee3a5-c923-4020-8508-fc9abb76ff9f"
-          ]
-        ],
+        "definitionRefs": [],
         "kind": "relativePath",
         "link": "New model (Polyglot).hck.json",
         "fieldRelativePath": "#/New_Table_Group/New view"
@@ -1579,7 +1542,7 @@
       "normalization": false
     }
   ],
-  "lastModifTS": "2025-04-11T14:55:44.511Z",
+  "lastModifTS": "2025-04-11T14:58:12.651Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1661,14 +1624,6 @@
             "y": 1256,
             "width": 194,
             "height": 87,
-            "color": {}
-          },
-          {
-            "GUID": "c9aee3a5-c923-4020-8508-fc9abb76ff9f",
-            "x": 1253,
-            "y": 1429,
-            "width": 194,
-            "height": 69,
             "color": {}
           }
         ],
