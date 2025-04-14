@@ -81,30 +81,6 @@
       }
     },
     {
-      "GUID": "28a1de52-9da2-4f09-9aeb-5135f7c8b08c",
-      "type": "reference",
-      "$ref": "#external/definitions/New_Table2",
-      "refType": "polyglot",
-      "ref": "5018364b-555f-408f-9b5a-b0142a8ab718",
-      "refIdPath": [
-        "3153c083-44a3-4618-87ba-0933950945b7",
-        "216a008f-78a0-487f-83a9-74c2f57cbea9",
-        "5018364b-555f-408f-9b5a-b0142a8ab718"
-      ],
-      "isActivated": true,
-      "collectionName": "New_Table2",
-      "bucketId": "884689be-c3cb-49aa-b1d3-4049f94e84d5",
-      "properties": [],
-      "definitions": {
-        "properties": [],
-        "GUID": "e07e20e9-ebc2-4a9b-9109-96fbce2026a7"
-      },
-      "additionalProperties": false,
-      "error": {
-        "refPath": false
-      }
-    },
-    {
       "GUID": "4849fce5-5ad2-4c01-9624-9d1805ad88c3",
       "type": "reference",
       "$ref": "#external/definitions/New_Table3",
@@ -215,31 +191,6 @@
           }
         ]
       }
-    },
-    {
-      "GUID": "c762ef99-49b7-4906-80e9-47dcda63f86d",
-      "type": "reference",
-      "$ref": "#external/definitions/New entity2",
-      "refType": "polyglot",
-      "ref": "8dc5be74-799e-4319-86ca-a46f9ccb07d4",
-      "refIdPath": [
-        "3153c083-44a3-4618-87ba-0933950945b7",
-        "216a008f-78a0-487f-83a9-74c2f57cbea9",
-        "8dc5be74-799e-4319-86ca-a46f9ccb07d4"
-      ],
-      "isActivated": true,
-      "collectionName": "New entity2",
-      "properties": [],
-      "definitions": {
-        "properties": [],
-        "GUID": "b5939ff2-bc52-4ff3-9bf0-1fc616473249"
-      },
-      "additionalProperties": false,
-      "hackoladeMeta": {
-        "validationErrors": {
-          "collectionName": true
-        }
-      }
     }
   ],
   "buckets": [
@@ -266,7 +217,6 @@
       "collectionIds": [
         "baf746f7-9340-460a-bf05-e09fe247cb87",
         "1b07bc4a-ac4b-4f87-8049-200b66058e48",
-        "28a1de52-9da2-4f09-9aeb-5135f7c8b08c",
         "4849fce5-5ad2-4c01-9624-9d1805ad88c3"
       ]
     },
@@ -296,28 +246,7 @@
       ]
     }
   ],
-  "views": [
-    {
-      "GUID": "72e3fb10-1299-452a-aaf1-84541d5d6589",
-      "name": "New view1",
-      "type": "reference",
-      "$ref": "#external/definitions/New view1",
-      "refType": "polyglot",
-      "ref": "114dfec8-1fb7-4475-a69a-e0ee44436510",
-      "refIdPath": [
-        "3153c083-44a3-4618-87ba-0933950945b7",
-        "216a008f-78a0-487f-83a9-74c2f57cbea9",
-        "114dfec8-1fb7-4475-a69a-e0ee44436510"
-      ],
-      "isActivated": true,
-      "properties": [],
-      "definitions": {
-        "properties": [],
-        "GUID": "40c2f250-0ffe-4ab9-96bb-a70a2e71c53e"
-      },
-      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]"
-    }
-  ],
+  "views": [],
   "relationships": [
     {
       "name": "fk_New_Table_New Attribute2_to_New_Table1_New Attribute1",
@@ -516,14 +445,12 @@
   "idToNameHashTable": {
     "baf746f7-9340-460a-bf05-e09fe247cb87": "New_Table",
     "1b07bc4a-ac4b-4f87-8049-200b66058e48": "New_Table1",
-    "28a1de52-9da2-4f09-9aeb-5135f7c8b08c": "New_Table2",
     "4849fce5-5ad2-4c01-9624-9d1805ad88c3": "New_Table3",
     "c9aee3a5-c923-4020-8508-fc9abb76ff9f": "New view",
     "884689be-c3cb-49aa-b1d3-4049f94e84d5": "New_Table_Group",
     "df022d0b-3071-4489-8882-3dda23c6a345": "fk_New_Table_New Attribute2_to_New_Table1_New Attribute1",
     "d9a4816a-85e1-43a6-b42c-037ade57c155": "New entity",
     "35bb0cb3-ea7e-4b58-bbbf-dff4acd66db8": "New entity1",
-    "c762ef99-49b7-4906-80e9-47dcda63f86d": "New entity2",
     "72e3fb10-1299-452a-aaf1-84541d5d6589": "New view1",
     "92d14ea9-31c3-4895-98a6-f65bacefd15d": "New container",
     "2e351039-1b6e-45e4-8d54-099c3e78eef0": "fk_New_Table_New Attribute1_to_New entity1_New attribute8",
@@ -693,11 +620,7 @@
         "type": "object",
         "definitionEntityType": "collection",
         "fileType": "hackoladeSchema",
-        "definitionRefs": [
-          [
-            "28a1de52-9da2-4f09-9aeb-5135f7c8b08c"
-          ]
-        ],
+        "definitionRefs": [],
         "kind": "relativePath",
         "link": "New model (Polyglot).hck.json",
         "fieldRelativePath": "#/New_Table_Group/New_Table2"
@@ -1255,11 +1178,7 @@
         "kind": "relativePath",
         "fieldRelativePath": "#/New entity2",
         "fileType": "hackoladeSchema",
-        "definitionRefs": [
-          [
-            "c762ef99-49b7-4906-80e9-47dcda63f86d"
-          ]
-        ]
+        "definitionRefs": []
       },
       {
         "name": "New view1",
@@ -1387,11 +1306,7 @@
         "kind": "relativePath",
         "fieldRelativePath": "#/New view1",
         "fileType": "hackoladeSchema",
-        "definitionRefs": [
-          [
-            "72e3fb10-1299-452a-aaf1-84541d5d6589"
-          ]
-        ]
+        "definitionRefs": []
       },
       {
         "name": "fk_New_Table_New Attribute1_to_New entity1_New attribute8",
@@ -1542,7 +1457,7 @@
       "normalization": false
     }
   ],
-  "lastModifTS": "2025-04-14T12:58:40.381Z",
+  "lastModifTS": "2025-04-14T12:59:10.645Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1577,24 +1492,6 @@
             }
           },
           {
-            "GUID": "72e3fb10-1299-452a-aaf1-84541d5d6589",
-            "x": 2027,
-            "y": 1635,
-            "width": 248,
-            "height": 123,
-            "color": {}
-          },
-          {
-            "GUID": "c762ef99-49b7-4906-80e9-47dcda63f86d",
-            "x": 1986,
-            "y": 1828,
-            "width": 217,
-            "height": 87,
-            "color": {
-              "hex": "#2196F3"
-            }
-          },
-          {
             "GUID": "baf746f7-9340-460a-bf05-e09fe247cb87",
             "x": 1584,
             "y": 1445,
@@ -1605,14 +1502,6 @@
           {
             "GUID": "1b07bc4a-ac4b-4f87-8049-200b66058e48",
             "x": 1635,
-            "y": 1313,
-            "width": 194,
-            "height": 87,
-            "color": {}
-          },
-          {
-            "GUID": "28a1de52-9da2-4f09-9aeb-5135f7c8b08c",
-            "x": 1584,
             "y": 1313,
             "width": 194,
             "height": 87,
