@@ -127,6 +127,151 @@
       "hackoladeMeta": {
         "validationErrors": {}
       }
+    },
+    {
+      "collectionName": "New table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "aaca53db-c08b-4df4-b71a-165a0ca45b78",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "860124e0-4459-4eb0-834e-03711ab44fa4",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "8458d919-02ce-4975-92c2-08e7aa3b02cb",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "95ec54ef-988c-41f7-be21-73009d1758b7"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "external": false,
+      "tags": [
+        {
+          "name": "Security Classification",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "Public"
+            },
+            {
+              "value": "Internal"
+            },
+            {
+              "value": "Confidential"
+            },
+            {
+              "value": "Highly Confidential"
+            }
+          ]
+        },
+        {
+          "name": "PI/SPI",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "PI"
+            },
+            {
+              "value": "SPI"
+            },
+            {
+              "value": "Not PI"
+            }
+          ]
+        }
+      ],
+      "catalog": "",
+      "storageSerializationPolicy": "optimized",
+      "entitySecurityClassification": "Public",
+      "GUID": "4a85729c-e900-47d7-b127-f2b68c6c870f"
     }
   ],
   "buckets": [
@@ -257,7 +402,11 @@
     "dae21797-275c-40af-8e2b-dbf2e8fdd6c2": "CASEINSANSATIVECOLUMN",
     "e005a0b8-7094-4608-8c60-dbd0731fe708": "CASEINSENSATIVETABLE",
     "acd9d511-77de-4638-8ad6-1d7294d1dca6": "CASEINSANSATIVECOLUMN",
-    "b131597e-777e-4e48-bafb-870f2fb3c578": "CASEINSENSATIVEVIEW"
+    "b131597e-777e-4e48-bafb-870f2fb3c578": "CASEINSENSATIVEVIEW",
+    "4a85729c-e900-47d7-b127-f2b68c6c870f": "New table",
+    "aaca53db-c08b-4df4-b71a-165a0ca45b78": "New column",
+    "860124e0-4459-4eb0-834e-03711ab44fa4": "New column1",
+    "8458d919-02ce-4975-92c2-08e7aa3b02cb": "New column2"
   },
   "definitions": {
     "type": "definitions",
@@ -281,7 +430,7 @@
   "creationTS": "2025-04-17T15:30:25.495Z",
   "GUID": "5b3b3cb4-83fb-4e60-99c8-d49c567c3271",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-17T15:35:55.944Z",
+  "lastModifTS": "2025-04-17T15:36:05.372Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -292,6 +441,7 @@
   "applicationInformation": {
     "version": "8.1.3"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -310,6 +460,14 @@
             "y": 1050,
             "width": 278,
             "height": 45,
+            "color": {}
+          },
+          {
+            "GUID": "4a85729c-e900-47d7-b127-f2b68c6c870f",
+            "x": 1010,
+            "y": 1010,
+            "width": 210,
+            "height": 87,
             "color": {}
           }
         ],
