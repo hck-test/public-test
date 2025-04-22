@@ -1,5 +1,5 @@
 {
-  "modelName": "New model",
+  "modelName": "это модель",
   "collections": [
     {
       "collectionName": "тест",
@@ -128,8 +128,8 @@
   "appTarget": "Polyglot",
   "creationTS": "2025-04-17T15:08:08.186Z",
   "GUID": "17d5acd0-cd9e-4c62-81ad-d1ed32f084e7",
-  "isLineageEnabled": false,
-  "lastModifTS": "2025-04-22T14:17:28.785Z",
+  "isLineageEnabled": true,
+  "lastModifTS": "2025-04-22T14:19:26.419Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -140,7 +140,12 @@
   "applicationInformation": {
     "version": "8.1.4"
   },
-  "hackoladeMeta": {},
+  "hackoladeMeta": {
+    "validationErrors": {
+      "isLineageEnabled": false
+    }
+  },
+  "author": "Модельер",
   "settings": {
     "centralPane": {
       "dbLevel": {
