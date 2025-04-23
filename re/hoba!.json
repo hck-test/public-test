@@ -145,7 +145,7 @@
   "creationTS": "2025-04-23T14:22:19.693Z",
   "GUID": "b8b0803e-c634-4770-9438-7a1958608fde",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-23T14:24:24.478Z",
+  "lastModifTS": "2025-04-23T14:28:50.451Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -163,8 +163,8 @@
         "erd": [
           {
             "GUID": "986d653c-a0d4-43ab-9b88-272aa9ec9ee5",
-            "x": 1363,
-            "y": 1049,
+            "x": 1458,
+            "y": 1021,
             "width": 315,
             "height": 144,
             "color": {}
