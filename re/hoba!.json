@@ -18,15 +18,14 @@
           }
         },
         {
-          "name": "New Field1",
+          "name": "123",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
           "color": "#555555",
           "GUID": "3b7ef075-f9eb-4be7-8313-dce3eaf87d7f",
           "error": {
-            "name": false,
-            "code": false
+            "name": false
           }
         },
         {
@@ -119,7 +118,7 @@
   "idToNameHashTable": {
     "986d653c-a0d4-43ab-9b88-272aa9ec9ee5": "New Collection",
     "26f42582-98f8-4d2a-97fe-afee2c51a707": "New Field",
-    "3b7ef075-f9eb-4be7-8313-dce3eaf87d7f": "New Field1",
+    "3b7ef075-f9eb-4be7-8313-dce3eaf87d7f": "123",
     "29d12174-abc7-4cae-9676-adc304ccbba8": "New Field2",
     "eb542c2c-6a26-4b7e-9834-5d03b9b034ce": "New Field3"
   },
@@ -146,7 +145,7 @@
   "creationTS": "2025-04-23T14:22:19.693Z",
   "GUID": "b8b0803e-c634-4770-9438-7a1958608fde",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-23T14:23:30.098Z",
+  "lastModifTS": "2025-04-23T14:24:24.478Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -154,6 +153,9 @@
   },
   "applicationInformation": {
     "version": "8.1.4"
+  },
+  "hackoladeMeta": {
+    "customPropertiesUpdated": true
   },
   "settings": {
     "centralPane": {
@@ -209,8 +211,5 @@
       "collapsedNodes": [],
       "shouldDistributeCollections": false
     }
-  },
-  "hackoladeMeta": {
-    "customPropertiesUpdated": true
   }
 }
