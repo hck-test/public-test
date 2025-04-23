@@ -433,6 +433,41 @@
           "GUID": "e12eca71-b11f-432c-b4b5-acca21fc987a"
         }
       ]
+    },
+    {
+      "name": "New view4",
+      "type": "object",
+      "properties": [
+        {
+          "GUID": "2d46b906-3375-428e-a616-52574ea5355b",
+          "type": "reference",
+          "name": "New attribute2",
+          "ref": "50ea1897-1d9f-49f5-97bf-fb6f9c5418b6",
+          "refType": "collectionReference",
+          "refIdPath": [
+            "352ded1f-27d1-4d96-8191-cfa16c73831b",
+            "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf",
+            "50ea1897-1d9f-49f5-97bf-fb6f9c5418b6"
+          ],
+          "isActivated": true,
+          "hackoladeMeta": {},
+          "error": {
+            "name": true
+          }
+        }
+      ],
+      "isActivated": true,
+      "viewIfNotExist": true,
+      "GUID": "d0a78616-6666-41aa-a489-33a7dcfc8357",
+      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+      "viewOn": "",
+      "bucketId": "",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true,
+          "code": false
+        }
+      }
     }
   ],
   "relationships": [],
@@ -460,7 +495,9 @@
     "6c241763-911d-422c-a90e-9f1a56cab00b": "New_table",
     "5fe5d4b4-725c-4543-9285-89da0697de59": "New_column",
     "dbe478e5-470f-4f29-b652-fd6e04527f2d": "New_column1",
-    "ecf89138-cbf5-4d56-9102-f8e121d7bb07": "New_column2"
+    "ecf89138-cbf5-4d56-9102-f8e121d7bb07": "New_column2",
+    "d0a78616-6666-41aa-a489-33a7dcfc8357": "New view4",
+    "2d46b906-3375-428e-a616-52574ea5355b": "New attribute2"
   },
   "definitions": {
     "type": "definitions",
@@ -925,7 +962,7 @@
       "normalization": false
     }
   ],
-  "lastModifTS": "2025-04-23T14:05:55.845Z",
+  "lastModifTS": "2025-04-23T14:06:39.945Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1010,6 +1047,14 @@
             "y": 1203.354166666667,
             "width": 214,
             "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "d0a78616-6666-41aa-a489-33a7dcfc8357",
+            "x": 1367.6842948717956,
+            "y": 1499.7724358974363,
+            "width": 231,
+            "height": 51,
             "color": {}
           }
         ],
