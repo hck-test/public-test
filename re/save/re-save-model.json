@@ -143,6 +143,104 @@
         }
       },
       "additionalProperties": false
+    },
+    {
+      "collectionName": "New_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "string",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "text",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "5fe5d4b4-725c-4543-9285-89da0697de59",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "string",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "text",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "dbe478e5-470f-4f29-b652-fd6e04527f2d",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "string",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "text",
+          "type": "string",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "ecf89138-cbf5-4d56-9102-f8e121d7bb07",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "cfe051b4-05c6-4791-9311-e141d42f716d"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "collectionUsers": [],
+      "tableIfNotExists": true,
+      "GUID": "6c241763-911d-422c-a90e-9f1a56cab00b",
+      "bucketId": "3c21031f-7205-4e0d-92eb-aab345351a95"
     }
   ],
   "buckets": [
@@ -196,7 +294,8 @@
       },
       "show": true,
       "collectionIds": [
-        "35ac18df-2e64-43f5-be05-2af93820bb3b"
+        "35ac18df-2e64-43f5-be05-2af93820bb3b",
+        "6c241763-911d-422c-a90e-9f1a56cab00b"
       ],
       "hackoladeMeta": {
         "validationErrors": {
@@ -357,7 +456,11 @@
     "b4f837c3-96c5-482a-b5a2-6d37b53f87b7": "New view2",
     "4fc1d0bf-36c6-4537-a5f5-b8e95f38b484": "New view3",
     "91e8addb-4f3a-4a3e-bf8d-6b67963fc032": "New container",
-    "3c21031f-7205-4e0d-92eb-aab345351a95": "New container1"
+    "3c21031f-7205-4e0d-92eb-aab345351a95": "New container1",
+    "6c241763-911d-422c-a90e-9f1a56cab00b": "New_table",
+    "5fe5d4b4-725c-4543-9285-89da0697de59": "New_column",
+    "dbe478e5-470f-4f29-b652-fd6e04527f2d": "New_column1",
+    "ecf89138-cbf5-4d56-9102-f8e121d7bb07": "New_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -822,7 +925,7 @@
       "normalization": false
     }
   ],
-  "lastModifTS": "2025-04-23T13:57:48.804Z",
+  "lastModifTS": "2025-04-23T14:05:55.845Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -900,6 +1003,14 @@
             "width": 240,
             "height": 100,
             "color": {}
+          },
+          {
+            "GUID": "6c241763-911d-422c-a90e-9f1a56cab00b",
+            "x": 1525.7740384615395,
+            "y": 1203.354166666667,
+            "width": 214,
+            "height": 87,
+            "color": {}
           }
         ],
         "erdDefinitions": {
@@ -915,7 +1026,7 @@
             "GUID": "91e8addb-4f3a-4a3e-bf8d-6b67963fc032"
           },
           {
-            "x": 1505,
+            "x": 1485.7740384615395,
             "y": 1042,
             "GUID": "3c21031f-7205-4e0d-92eb-aab345351a95"
           }
