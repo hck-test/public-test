@@ -1,0 +1,953 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "GUID": "352ded1f-27d1-4d96-8191-cfa16c73831b",
+      "type": "reference",
+      "$ref": "#external/definitions/New entity",
+      "refType": "polyglot",
+      "ref": "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf"
+      ],
+      "isActivated": true,
+      "collectionName": "New entity",
+      "bucketId": "91e8addb-4f3a-4a3e-bf8d-6b67963fc032",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "533dc223-6199-4a3d-b777-b4d80aad6955"
+      },
+      "referenceDiff": {
+        "properties": [
+          {
+            "GUID": "230b115b-76e4-460d-9509-3a44bd2cd14d",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "29b053e0-2eea-4606-88b1-592d7340d4cf",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "50ea1897-1d9f-49f5-97bf-fb6f9c5418b6",
+            "error": {
+              "name": true
+            }
+          }
+        ]
+      },
+      "hackoladeMeta": {
+        "validationErrors": {
+          "collectionName": true
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "GUID": "35ac18df-2e64-43f5-be05-2af93820bb3b",
+      "type": "reference",
+      "$ref": "#external/definitions/New entity1",
+      "refType": "polyglot",
+      "ref": "6c763aef-e9c8-4069-85e8-1d3f6456d0ab",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "6c763aef-e9c8-4069-85e8-1d3f6456d0ab"
+      ],
+      "isActivated": true,
+      "collectionName": "New entity1",
+      "bucketId": "3c21031f-7205-4e0d-92eb-aab345351a95",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "a1b5c27a-4231-486f-8697-9f6f5487b401"
+      },
+      "referenceDiff": {
+        "properties": [
+          {
+            "GUID": "e662a466-e3b4-4322-bea5-616957a9b57e",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "86d11bbf-1a23-46be-8117-460d3e0e8153",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "0318bd94-4607-41f5-bdda-70c9d1c648ec",
+            "error": {
+              "name": true
+            }
+          }
+        ]
+      },
+      "hackoladeMeta": {
+        "validationErrors": {
+          "collectionName": true
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "GUID": "cd1abf62-7627-447a-9549-2d7a8ff5618a",
+      "type": "reference",
+      "$ref": "#external/definitions/New entity2",
+      "refType": "polyglot",
+      "ref": "23520d9a-6251-4de1-9181-e484aae3b566",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "23520d9a-6251-4de1-9181-e484aae3b566"
+      ],
+      "isActivated": true,
+      "collectionName": "New entity2",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "9b485150-95ac-4d34-9c52-6854e1abb531"
+      },
+      "referenceDiff": {
+        "properties": [
+          {
+            "GUID": "02986f0d-4f4a-47c9-86c5-03440b778eeb",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "bd963651-9d43-427c-b173-e3bd26f25f94",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "128d6753-14f6-45b2-99ea-ed7851b43c70",
+            "error": {
+              "name": true
+            }
+          }
+        ]
+      },
+      "hackoladeMeta": {
+        "validationErrors": {
+          "collectionName": true
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "buckets": [
+    {
+      "GUID": "91e8addb-4f3a-4a3e-bf8d-6b67963fc032",
+      "name": "New container",
+      "type": "reference",
+      "$ref": "#external/definitions/New container",
+      "refType": "polyglot",
+      "ref": "8c1f61cd-6c8b-404d-8ca3-586c2da5c739",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "8c1f61cd-6c8b-404d-8ca3-586c2da5c739"
+      ],
+      "isActivated": true,
+      "backgroundColor": {
+        "r": 216,
+        "g": 0,
+        "b": 115,
+        "a": 1
+      },
+      "show": true,
+      "collectionIds": [
+        "352ded1f-27d1-4d96-8191-cfa16c73831b"
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      }
+    },
+    {
+      "GUID": "3c21031f-7205-4e0d-92eb-aab345351a95",
+      "name": "New container1",
+      "type": "reference",
+      "$ref": "#external/definitions/New container1",
+      "refType": "polyglot",
+      "ref": "91ee80df-c0f1-44f4-9545-64cb26d8b334",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "91ee80df-c0f1-44f4-9545-64cb26d8b334"
+      ],
+      "isActivated": true,
+      "backgroundColor": {
+        "r": 0,
+        "g": 138,
+        "b": 0,
+        "a": 1
+      },
+      "show": true,
+      "collectionIds": [
+        "35ac18df-2e64-43f5-be05-2af93820bb3b"
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      }
+    }
+  ],
+  "views": [
+    {
+      "GUID": "bee71aa9-1e90-41b9-b5e6-efd45e0664ed",
+      "name": "New view",
+      "type": "reference",
+      "$ref": "#external/definitions/New view",
+      "refType": "polyglot",
+      "ref": "0f77d80c-9565-4318-81ce-a029ec746f9a",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "0f77d80c-9565-4318-81ce-a029ec746f9a"
+      ],
+      "isActivated": true,
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "e20412f8-501b-4c7a-b68b-6e13d1eb040f"
+      },
+      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      },
+      "unityViewTags": [
+        {
+          "GUID": "d38eb25a-e496-431e-b075-e799eec92c0e"
+        }
+      ]
+    },
+    {
+      "GUID": "26013526-6b9c-468b-bfbc-1ecb3409c573",
+      "name": "New view1",
+      "type": "reference",
+      "$ref": "#external/definitions/New view1",
+      "refType": "polyglot",
+      "ref": "afe090d9-deff-4ea9-9186-e0a62d33d126",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "afe090d9-deff-4ea9-9186-e0a62d33d126"
+      ],
+      "isActivated": true,
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "58158692-2788-48c2-85eb-d9076c1339d2"
+      },
+      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      },
+      "tableProperties": [
+        {
+          "GUID": "c5ed5b75-f957-4e9e-bf63-ac4e27b306d3"
+        }
+      ],
+      "unityViewTags": [
+        {
+          "GUID": "174ba2bf-f24c-4803-ac33-1c30e11b5ec9"
+        },
+        {
+          "GUID": "a5cb919d-2ae2-46ba-8307-cfb3271e1ef3"
+        }
+      ]
+    },
+    {
+      "GUID": "b4f837c3-96c5-482a-b5a2-6d37b53f87b7",
+      "name": "New view2",
+      "type": "reference",
+      "$ref": "#external/definitions/New view2",
+      "refType": "polyglot",
+      "ref": "1dbd2b7d-62f8-4aaf-83eb-a205d9b26c11",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "1dbd2b7d-62f8-4aaf-83eb-a205d9b26c11"
+      ],
+      "isActivated": true,
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "5c04b844-bd6c-44ad-a24b-f0a0b8a04eb5"
+      },
+      "id": "123",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      },
+      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+      "unityViewTags": [
+        {
+          "GUID": "5de4a545-c27a-446f-8bde-5106d9af68af"
+        }
+      ]
+    },
+    {
+      "GUID": "4fc1d0bf-36c6-4537-a5f5-b8e95f38b484",
+      "name": "New view3",
+      "type": "reference",
+      "$ref": "#external/definitions/New view3",
+      "refType": "polyglot",
+      "ref": "9a97df2e-24f9-416a-a96b-3b1bf803c41c",
+      "refIdPath": [
+        "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+        "2f6e1d92-76b9-41dc-9316-db2367282e4c",
+        "9a97df2e-24f9-416a-a96b-3b1bf803c41c"
+      ],
+      "isActivated": false,
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "f0d5721d-527e-4b69-a034-5cf2a365cd76"
+      },
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      },
+      "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+      "unityViewTags": [
+        {
+          "GUID": "e12eca71-b11f-432c-b4b5-acca21fc987a"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf": "New entity",
+    "6c763aef-e9c8-4069-85e8-1d3f6456d0ab": "New entity1",
+    "23520d9a-6251-4de1-9181-e484aae3b566": "New entity2",
+    "8c1f61cd-6c8b-404d-8ca3-586c2da5c739": "New container",
+    "91ee80df-c0f1-44f4-9545-64cb26d8b334": "New container1",
+    "0f77d80c-9565-4318-81ce-a029ec746f9a": "New view",
+    "afe090d9-deff-4ea9-9186-e0a62d33d126": "New view1",
+    "1dbd2b7d-62f8-4aaf-83eb-a205d9b26c11": "New view2",
+    "9a97df2e-24f9-416a-a96b-3b1bf803c41c": "New view3",
+    "352ded1f-27d1-4d96-8191-cfa16c73831b": "New entity",
+    "bee71aa9-1e90-41b9-b5e6-efd45e0664ed": "New view",
+    "35ac18df-2e64-43f5-be05-2af93820bb3b": "New entity1",
+    "26013526-6b9c-468b-bfbc-1ecb3409c573": "New view1",
+    "cd1abf62-7627-447a-9549-2d7a8ff5618a": "New entity2",
+    "b4f837c3-96c5-482a-b5a2-6d37b53f87b7": "New view2",
+    "4fc1d0bf-36c6-4537-a5f5-b8e95f38b484": "New view3",
+    "91e8addb-4f3a-4a3e-bf8d-6b67963fc032": "New container",
+    "3c21031f-7205-4e0d-92eb-aab345351a95": "New container1"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "baa95fae-4cca-4603-8d17-d5f22d1100aa"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [
+      {
+        "collectionName": "New entity",
+        "isActivated": true,
+        "bucketId": "8c1f61cd-6c8b-404d-8ca3-586c2da5c739",
+        "additionalProperties": false,
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute",
+            "code": "",
+            "isActivated": true,
+            "GUID": "230b115b-76e4-460d-9509-3a44bd2cd14d",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute1",
+            "code": "",
+            "isActivated": true,
+            "GUID": "29b053e0-2eea-4606-88b1-592d7340d4cf",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute2",
+            "code": "",
+            "isActivated": true,
+            "GUID": "50ea1897-1d9f-49f5-97bf-fb6f9c5418b6",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "32bd1d35-4160-4255-9e8e-223d5f706b29"
+        },
+        "GUID": "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "collection",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container/New entity",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "352ded1f-27d1-4d96-8191-cfa16c73831b"
+          ]
+        ]
+      },
+      {
+        "name": "New view",
+        "isActivated": true,
+        "bucketId": "8c1f61cd-6c8b-404d-8ca3-586c2da5c739",
+        "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+        "viewOn": "",
+        "properties": [],
+        "GUID": "0f77d80c-9565-4318-81ce-a029ec746f9a",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "view",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container/New view",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "bee71aa9-1e90-41b9-b5e6-efd45e0664ed"
+          ]
+        ]
+      },
+      {
+        "collectionName": "New entity1",
+        "isActivated": true,
+        "bucketId": "91ee80df-c0f1-44f4-9545-64cb26d8b334",
+        "additionalProperties": false,
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute",
+            "code": "",
+            "isActivated": true,
+            "GUID": "e662a466-e3b4-4322-bea5-616957a9b57e",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute1",
+            "code": "",
+            "isActivated": true,
+            "GUID": "86d11bbf-1a23-46be-8117-460d3e0e8153",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute2",
+            "code": "",
+            "isActivated": true,
+            "GUID": "0318bd94-4607-41f5-bdda-70c9d1c648ec",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "f47dfdb0-6b9f-48dd-b4b9-091ff87b83f0"
+        },
+        "GUID": "6c763aef-e9c8-4069-85e8-1d3f6456d0ab",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "collection",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container1/New entity1",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "35ac18df-2e64-43f5-be05-2af93820bb3b"
+          ]
+        ]
+      },
+      {
+        "name": "New view1",
+        "isActivated": true,
+        "bucketId": "91ee80df-c0f1-44f4-9545-64cb26d8b334",
+        "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+        "viewOn": "",
+        "properties": [],
+        "GUID": "afe090d9-deff-4ea9-9186-e0a62d33d126",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "view",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container1/New view1",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "26013526-6b9c-468b-bfbc-1ecb3409c573"
+          ]
+        ]
+      },
+      {
+        "collectionName": "New entity2",
+        "isActivated": true,
+        "additionalProperties": false,
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute",
+            "code": "",
+            "isActivated": true,
+            "GUID": "02986f0d-4f4a-47c9-86c5-03440b778eeb",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute1",
+            "code": "",
+            "isActivated": true,
+            "GUID": "bd963651-9d43-427c-b173-e3bd26f25f94",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "string",
+            "subtype": "string",
+            "required": false,
+            "childType": "text",
+            "type": "string",
+            "compositePartitionKey": false,
+            "compositeClusteringKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute2",
+            "code": "",
+            "isActivated": true,
+            "GUID": "128d6753-14f6-45b2-99ea-ed7851b43c70",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositePartitionKey",
+              "compositeClusteringKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "99838fa2-92c4-424d-a08a-efcc4b1abd6b"
+        },
+        "GUID": "23520d9a-6251-4de1-9181-e484aae3b566",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "collection",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New entity2",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "cd1abf62-7627-447a-9549-2d7a8ff5618a"
+          ]
+        ]
+      },
+      {
+        "name": "New view2",
+        "isActivated": true,
+        "id": "123",
+        "bucketId": "",
+        "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+        "viewOn": "",
+        "properties": [],
+        "GUID": "1dbd2b7d-62f8-4aaf-83eb-a205d9b26c11",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "view",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New view2",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "b4f837c3-96c5-482a-b5a2-6d37b53f87b7"
+          ]
+        ]
+      },
+      {
+        "name": "New view3",
+        "isActivated": false,
+        "bucketId": "",
+        "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+        "viewOn": "",
+        "properties": [],
+        "GUID": "9a97df2e-24f9-416a-a96b-3b1bf803c41c",
+        "type": "object",
+        "hackoladeMeta": {},
+        "definitionEntityType": "view",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New view3",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "4fc1d0bf-36c6-4537-a5f5-b8e95f38b484"
+          ]
+        ]
+      },
+      {
+        "name": "New container",
+        "isActivated": true,
+        "backgroundColor": {
+          "r": 216,
+          "g": 0,
+          "b": 115,
+          "a": 1
+        },
+        "GUID": "8c1f61cd-6c8b-404d-8ca3-586c2da5c739",
+        "type": "bucket",
+        "collectionIds": [
+          "9ec3f24d-dacd-4ef3-bd61-3ef44f86ddaf"
+        ],
+        "hackoladeMeta": {
+          "validationErrors": {
+            "name": true
+          }
+        },
+        "show": true,
+        "definitionEntityType": "bucket",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "91e8addb-4f3a-4a3e-bf8d-6b67963fc032"
+          ]
+        ]
+      },
+      {
+        "name": "New container1",
+        "isActivated": true,
+        "backgroundColor": {
+          "r": 0,
+          "g": 138,
+          "b": 0,
+          "a": 1
+        },
+        "GUID": "91ee80df-c0f1-44f4-9545-64cb26d8b334",
+        "type": "bucket",
+        "collectionIds": [
+          "6c763aef-e9c8-4069-85e8-1d3f6456d0ab"
+        ],
+        "hackoladeMeta": {
+          "validationErrors": {
+            "name": true
+          }
+        },
+        "show": true,
+        "definitionEntityType": "bucket",
+        "link": "PolyViow.hck.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container1",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "3c21031f-7205-4e0d-92eb-aab345351a95"
+          ]
+        ]
+      }
+    ],
+    "GUID": "2f6e1d92-76b9-41dc-9316-db2367282e4c"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "f4f2b371-06ab-4bae-a31f-d89eed2eb6aa"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "Runtime 15",
+  "dbVendor": "Delta Lake",
+  "appTarget": "DeltaLake",
+  "creationTS": "2024-10-17T14:11:39.277Z",
+  "GUID": "4d7f44e1-c8e0-4b30-8fb4-db454ee2167c",
+  "isLineageEnabled": false,
+  "polyglotModelPaths": [
+    {
+      "GUID": "bb5a1fc0-212f-4457-857b-47e8e4365457",
+      "polyglotModelName": "PolyViow.hck",
+      "polyglotModelPath": "PolyViow.hck.json",
+      "normalization": false
+    }
+  ],
+  "lastModifTS": "2025-04-23T13:57:48.804Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "DeltaLake",
+    "pluginVersion": "0.2.22",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.4"
+  },
+  "hackoladeMeta": {},
+  "idTonNmeHashTable": {},
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "352ded1f-27d1-4d96-8191-cfa16c73831b",
+            "x": 1080,
+            "y": 1080,
+            "width": 217,
+            "height": 87,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "35ac18df-2e64-43f5-be05-2af93820bb3b",
+            "x": 1545,
+            "y": 1082,
+            "width": 217,
+            "height": 87,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "cd1abf62-7627-447a-9549-2d7a8ff5618a",
+            "x": 1665,
+            "y": 1558,
+            "width": 217,
+            "height": 87,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "bee71aa9-1e90-41b9-b5e6-efd45e0664ed",
+            "x": 1089.9074074074074,
+            "y": 1359.5555555555559,
+            "width": 240,
+            "height": 100,
+            "color": {}
+          },
+          {
+            "GUID": "26013526-6b9c-468b-bfbc-1ecb3409c573",
+            "x": 1571.2962962962965,
+            "y": 1360.9074074074076,
+            "width": 240,
+            "height": 100,
+            "color": {}
+          },
+          {
+            "GUID": "b4f837c3-96c5-482a-b5a2-6d37b53f87b7",
+            "x": 1086.1666666666665,
+            "y": 1555.4074074074076,
+            "width": 240,
+            "height": 100,
+            "color": {}
+          },
+          {
+            "GUID": "4fc1d0bf-36c6-4537-a5f5-b8e95f38b484",
+            "x": 1898,
+            "y": 1407,
+            "width": 240,
+            "height": 100,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 1040,
+            "y": 1040,
+            "GUID": "91e8addb-4f3a-4a3e-bf8d-6b67963fc032"
+          },
+          {
+            "x": 1505,
+            "y": 1042,
+            "GUID": "3c21031f-7205-4e0d-92eb-aab345351a95"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false,
+        "displayOptions": {}
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
