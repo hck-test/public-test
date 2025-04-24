@@ -30,7 +30,8 @@
           ],
           "error": {
             "name": false,
-            "code": false
+            "code": false,
+            "refPath": false
           }
         },
         {
@@ -313,7 +314,7 @@
   "creationTS": "2025-04-24T11:13:05.816Z",
   "GUID": "71a97126-dfcc-44c9-babd-39dd42859705",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-24T11:14:32.916Z",
+  "lastModifTS": "2025-04-24T11:14:47.493Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -324,6 +325,7 @@
   "applicationInformation": {
     "version": "8.1.4"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
