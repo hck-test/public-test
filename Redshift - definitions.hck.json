@@ -1,0 +1,376 @@
+{
+  "modelName": "new_model",
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "isActivated": true,
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "new_column",
+          "GUID": "ca329b15-9719-4e3e-901d-65378295af26",
+          "type": "reference",
+          "$ref": "#external/definitions/New_table1",
+          "refType": "polyglot",
+          "ref": "88fe38c9-d9eb-4b6f-815b-0ab991c5c30d",
+          "refIdPath": [
+            "71a97126-dfcc-44c9-babd-39dd42859705",
+            "67fdea2d-341f-4f40-ac04-2ffd4dc70f73",
+            "88fe38c9-d9eb-4b6f-815b-0ab991c5c30d"
+          ],
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "isActivated": true,
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "new_column1",
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "GUID": "59bf70b8-d71c-4dbd-b9ef-979ae65b9b56",
+          "type": "reference",
+          "$ref": "#/definitions/new_column1",
+          "refType": "internal",
+          "ref": "a555fb0d-5fc9-4a2a-aa37-02a902517df7",
+          "refIdPath": [
+            "54cbc45a-7664-4fdf-b69e-5c5a8725bc49",
+            "60b0fbfe-daa0-4bf7-97b2-a99a9c815490",
+            "a555fb0d-5fc9-4a2a-aa37-02a902517df7"
+          ],
+          "hackoladeMeta": {}
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "defaultOption": "Default",
+          "identity": {
+            "seed": 0,
+            "step": 1
+          },
+          "generateIdentity": "always",
+          "tPrecision": 9,
+          "superType": "JSON",
+          "primaryKey": false,
+          "mode": "varchar",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "d66d2982-f9cc-4895-a6de-c08323dfb312",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [
+          {
+            "name": "new_column1",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "defaultOption": "Default",
+            "identity": {
+              "seed": 0,
+              "step": 1
+            },
+            "generateIdentity": "always",
+            "tPrecision": 9,
+            "superType": "JSON",
+            "primaryKey": false,
+            "mode": "varchar",
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositeKey": [
+              "compositeDistKey",
+              "compositeSortKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ],
+            "compositeDistKey": false,
+            "compositeSortKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "GUID": "a555fb0d-5fc9-4a2a-aa37-02a902517df7",
+            "error": {
+              "name": false,
+              "code": false
+            },
+            "definitionRefs": [
+              [
+                "54cbc45a-7664-4fdf-b69e-5c5a8725bc49",
+                "59bf70b8-d71c-4dbd-b9ef-979ae65b9b56"
+              ]
+            ]
+          }
+        ],
+        "GUID": "60b0fbfe-daa0-4bf7-97b2-a99a9c815490"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "autoSortKey": true,
+      "ifNotExists": true,
+      "sortStyle": "Compound",
+      "formatTypeOptions": {
+        "NULL_IF": [
+          {
+            "NULL_IF_item": "\\N"
+          }
+        ]
+      },
+      "GUID": "54cbc45a-7664-4fdf-b69e-5c5a8725bc49"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "54cbc45a-7664-4fdf-b69e-5c5a8725bc49": "new_table",
+    "d66d2982-f9cc-4895-a6de-c08323dfb312": "new_column2",
+    "ca329b15-9719-4e3e-901d-65378295af26": "new_column",
+    "59bf70b8-d71c-4dbd-b9ef-979ae65b9b56": "new_column1",
+    "a555fb0d-5fc9-4a2a-aa37-02a902517df7": "new_column1"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "202f118c-9dcc-4f7b-9b07-3ba3494b694a"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [
+      {
+        "name": "New_table1",
+        "hackoladeMeta": {},
+        "isActivated": true,
+        "defaultOption": "Default",
+        "identity": {
+          "seed": 0,
+          "step": 1
+        },
+        "generateIdentity": "always",
+        "tPrecision": 9,
+        "superType": "JSON",
+        "primaryKey": false,
+        "mode": "super",
+        "enableChildrenMultipleTypes": true,
+        "enabled": true,
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "",
+            "subtype": "string",
+            "required": false,
+            "alternateKey": true,
+            "childType": "varchar",
+            "type": "string",
+            "compositeDistKey": false,
+            "compositeSortKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New_column",
+            "isActivated": true,
+            "unique": true,
+            "GUID": "fd99aca1-648c-4555-9333-5530ce9a1612",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositeDistKey",
+              "compositeSortKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "",
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositeDistKey": false,
+            "compositeSortKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New_column1",
+            "isActivated": true,
+            "unique": false,
+            "GUID": "cb4a5fc2-f467-4941-a646-cacc9b15430d",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositeDistKey",
+              "compositeSortKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": true,
+            "mode": "",
+            "subtype": "string",
+            "required": true,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositeDistKey": false,
+            "compositeSortKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New_column2",
+            "isActivated": true,
+            "GUID": "6e9e4ea6-dcc6-4f14-b52a-88f1c84e3a4b",
+            "hackoladeMeta": {},
+            "compositeKey": [
+              "compositeDistKey",
+              "compositeSortKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "subtype": "object",
+        "additionalProperties": false,
+        "childType": "super",
+        "type": "document",
+        "compositeKey": [
+          "compositeDistKey",
+          "compositeSortKey",
+          "compositePrimaryKey",
+          "compositeUniqueKey"
+        ],
+        "compositeDistKey": false,
+        "compositeSortKey": false,
+        "compositePrimaryKey": false,
+        "compositeUniqueKey": false,
+        "GUID": "88fe38c9-d9eb-4b6f-815b-0ab991c5c30d",
+        "description": "",
+        "comments": "",
+        "definitionEntityType": "field",
+        "fieldRelativePath": "#/New_schema/New_table1",
+        "link": "Yugabyte YSQL model New model.json",
+        "kind": "relativePath",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "54cbc45a-7664-4fdf-b69e-5c5a8725bc49",
+            "ca329b15-9719-4e3e-901d-65378295af26"
+          ]
+        ]
+      }
+    ],
+    "GUID": "67fdea2d-341f-4f40-ac04-2ffd4dc70f73"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "32929a9c-28ae-46b9-978c-794419f03e1c"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Redshift",
+  "instanceType": "Cluster",
+  "appTarget": "Redshift",
+  "creationTS": "2025-04-24T11:13:05.816Z",
+  "GUID": "71a97126-dfcc-44c9-babd-39dd42859705",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-04-24T11:14:32.916Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Redshift",
+    "pluginVersion": "0.2.16",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.4"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "54cbc45a-7664-4fdf-b69e-5c5a8725bc49",
+            "x": 1040,
+            "y": 1040,
+            "width": 318,
+            "height": 141,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
