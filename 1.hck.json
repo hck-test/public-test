@@ -1,12 +1,124 @@
 {
   "modelName": "new_model 1",
-  "collections": [],
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "04117864-c32a-4dd4-a12c-d79a409a6865",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "85e4bcf3-9b4a-46f7-afb3-b027a612663d",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4d1e61fe-a3f9-499b-ae91-ed732e1449d8",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "322821a8-cabd-4b72-9614-313337e8c8f0"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "a354035a-4bc2-49ea-8085-0277eec29e8e"
+    }
+  ],
   "buckets": [],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
-  "idToNameHashTable": {},
+  "idToNameHashTable": {
+    "a354035a-4bc2-49ea-8085-0277eec29e8e": "new_table",
+    "04117864-c32a-4dd4-a12c-d79a409a6865": "new_column",
+    "85e4bcf3-9b4a-46f7-afb3-b027a612663d": "new_column1",
+    "4d1e61fe-a3f9-499b-ae91-ed732e1449d8": "new_column2"
+  },
   "definitions": {
     "type": "definitions",
     "properties": [],
@@ -35,7 +147,7 @@
       "modelName": false
     }
   },
-  "lastModifTS": "2025-04-24T11:57:32.069Z",
+  "lastModifTS": "2025-04-30T11:04:23.058Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -44,12 +156,21 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.4"
+    "version": "8.1.5"
   },
   "settings": {
     "centralPane": {
       "dbLevel": {
-        "erd": [],
+        "erd": [
+          {
+            "GUID": "a354035a-4bc2-49ea-8085-0277eec29e8e",
+            "x": 40,
+            "y": 40,
+            "width": 250,
+            "height": 87,
+            "color": {}
+          }
+        ],
         "erdDefinitions": {
           "erd": [],
           "rootPath": [],
