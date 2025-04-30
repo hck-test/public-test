@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "modelName": "New Model",
   "collections": [
     {
@@ -11,28 +12,112 @@
           "isActivated": true,
           "type": "string",
           "GUID": "d29f7571-985e-4a9c-9f16-95df4ffdc180",
+=======
+  "modelName": "new_model 1",
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "04117864-c32a-4dd4-a12c-d79a409a6865",
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
           "error": {
             "name": false,
             "code": false
           }
         },
         {
+<<<<<<< HEAD
           "name": "New Attribute1",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
           "GUID": "843939f3-e2d3-4869-a5b5-131d98f0ce87",
+=======
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "85e4bcf3-9b4a-46f7-afb3-b027a612663d",
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
           "error": {
             "name": false,
             "code": false
           }
         },
         {
+<<<<<<< HEAD
           "name": "New Attribute2",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
           "GUID": "c7ed0bfb-a1a3-42dc-a77e-5ea6f950634b",
+=======
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4d1e61fe-a3f9-499b-ae91-ed732e1449d8",
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
           "error": {
             "name": false,
             "code": false
@@ -42,6 +127,7 @@
       "definitions": {
         "type": "definitions",
         "properties": [],
+<<<<<<< HEAD
         "GUID": "b63ec7d7-43d4-4c13-9b4b-0f375b405423"
       },
       "isActivated": true,
@@ -156,6 +242,18 @@
       "writeCapacity": 1,
       "streamViewType": "Keys only",
       "GUID": "58d81493-26f2-422a-afe1-b2dee1e7989c"
+=======
+        "GUID": "322821a8-cabd-4b72-9614-313337e8c8f0"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "a354035a-4bc2-49ea-8085-0277eec29e8e"
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
     }
   ],
   "buckets": [],
@@ -164,6 +262,7 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
+<<<<<<< HEAD
     "5357b659-2c84-43a5-8ea2-431e2955a903": "New_Table",
     "d29f7571-985e-4a9c-9f16-95df4ffdc180": "New Attribute",
     "843939f3-e2d3-4869-a5b5-131d98f0ce87": "New Attribute1",
@@ -176,6 +275,12 @@
     "94e5358f-2ff6-49dc-85e0-3ebe0eb356f3": "New Attribute",
     "4cb81795-4978-41af-a703-f588435bf61b": "New Attribute1",
     "33852c46-b727-4fca-bee6-5a7279616ac7": "New Attribute2"
+=======
+    "a354035a-4bc2-49ea-8085-0277eec29e8e": "new_table",
+    "04117864-c32a-4dd4-a12c-d79a409a6865": "new_column",
+    "85e4bcf3-9b4a-46f7-afb3-b027a612663d": "new_column1",
+    "4d1e61fe-a3f9-499b-ae91-ed732e1449d8": "new_column2"
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
   },
   "definitions": {
     "type": "definitions",
@@ -199,14 +304,27 @@
   "creationTS": "2025-04-09T11:34:32.095Z",
   "GUID": "430c99c7-2a3b-4d80-9852-bd6785c17891",
   "isLineageEnabled": false,
+<<<<<<< HEAD
   "lastModifTS": "2025-04-10T07:09:07.891Z",
+=======
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
+  },
+  "lastModifTS": "2025-04-30T11:04:23.058Z",
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
+<<<<<<< HEAD
     "version": "8.1.2"
+=======
+    "version": "8.1.5"
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
   },
   "hackoladeMeta": {},
   "settings": {
@@ -214,6 +332,7 @@
       "dbLevel": {
         "erd": [
           {
+<<<<<<< HEAD
             "GUID": "5357b659-2c84-43a5-8ea2-431e2955a903",
             "x": 1040,
             "y": 1040,
@@ -234,6 +353,12 @@
             "x": 1020,
             "y": 1020,
             "width": 194,
+=======
+            "GUID": "a354035a-4bc2-49ea-8085-0277eec29e8e",
+            "x": 40,
+            "y": 40,
+            "width": 250,
+>>>>>>> 02726ec86c428766926b22563410128bef4c14fa
             "height": 87,
             "color": {}
           }
