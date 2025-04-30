@@ -560,7 +560,7 @@
   "creationTS": "2025-04-03T12:51:37.076Z",
   "GUID": "57888e55-593c-43c4-a1a9-fac6c42e0bc2",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-03T13:08:04.314Z",
+  "lastModifTS": "2025-04-03T12:52:35.878Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -571,7 +571,6 @@
   "applicationInformation": {
     "version": "8.1.1"
   },
-  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
