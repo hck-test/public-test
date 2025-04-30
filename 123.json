@@ -504,6 +504,90 @@
       "partitioning": "No partitioning",
       "partitioningType": "",
       "encryption": "Google-managed"
+    },
+    {
+      "collectionName": "New_table6",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "45dbf671-0c70-4c80-812c-5654cb03a55e",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "ebaacef0-80ca-4624-8040-1af411de9936",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "e67a201c-1266-4d99-922d-b37fa4b331e7",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "206d4691-e16e-4fdb-882b-63f7d473d783"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "tableType": "Native",
+      "partitioning": "No partitioning",
+      "partitioningType": "",
+      "encryption": "Google-managed",
+      "GUID": "54245417-c82a-4cd8-abeb-188f8ca9c7c1"
     }
   ],
   "buckets": [],
@@ -535,7 +619,11 @@
     "5efecfdc-b50a-4887-83d3-69272260c34c": "New_table5",
     "15fec92e-c0c0-4b1d-bda9-5ace16eac985": "New_column",
     "9cdfcb77-626c-468a-9a38-5ceae7799788": "New_column1",
-    "c5bbe606-913f-4b34-843e-53a7b790c564": "New_column2"
+    "c5bbe606-913f-4b34-843e-53a7b790c564": "New_column2",
+    "54245417-c82a-4cd8-abeb-188f8ca9c7c1": "New_table6",
+    "45dbf671-0c70-4c80-812c-5654cb03a55e": "New_column",
+    "ebaacef0-80ca-4624-8040-1af411de9936": "New_column1",
+    "e67a201c-1266-4d99-922d-b37fa4b331e7": "New_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -560,7 +648,7 @@
   "creationTS": "2025-04-03T12:51:37.076Z",
   "GUID": "57888e55-593c-43c4-a1a9-fac6c42e0bc2",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-03T12:52:35.878Z",
+  "lastModifTS": "2025-04-30T14:26:08.619Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -569,8 +657,9 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.1"
+    "version": "8.1.5"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -619,6 +708,14 @@
             "GUID": "5efecfdc-b50a-4887-83d3-69272260c34c",
             "x": 1140,
             "y": 1140,
+            "width": 197,
+            "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "54245417-c82a-4cd8-abeb-188f8ca9c7c1",
+            "x": 1000,
+            "y": 1000,
             "width": 197,
             "height": 87,
             "color": {}
