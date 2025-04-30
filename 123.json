@@ -588,6 +588,90 @@
       "partitioningType": "",
       "encryption": "Google-managed",
       "GUID": "54245417-c82a-4cd8-abeb-188f8ca9c7c1"
+    },
+    {
+      "collectionName": "New_table7",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "a1b1ff8b-ad06-4523-b478-83e3a9bd418e",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "c3f82b9c-b579-4401-9e3a-b731445676bf",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "dataTypeMode": "Nullable",
+          "type": "string",
+          "compositeKey": [
+            "timeUnitpartitionKey",
+            "rangePartitionKey",
+            "clusteringKey",
+            "compositePrimaryKey"
+          ],
+          "timeUnitpartitionKey": false,
+          "rangePartitionKey": false,
+          "clusteringKey": false,
+          "compositePrimaryKey": false,
+          "GUID": "ea84cf96-f5cd-4053-9de0-3610322dcd07",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "bc140f8e-1578-41ef-bdf5-0f401d45635b"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "tableType": "Native",
+      "partitioning": "No partitioning",
+      "partitioningType": "",
+      "encryption": "Google-managed",
+      "GUID": "4ed8f2d9-4c6d-450c-95bd-4c052eb6e716"
     }
   ],
   "buckets": [],
@@ -623,7 +707,11 @@
     "54245417-c82a-4cd8-abeb-188f8ca9c7c1": "New_table6",
     "45dbf671-0c70-4c80-812c-5654cb03a55e": "New_column",
     "ebaacef0-80ca-4624-8040-1af411de9936": "New_column1",
-    "e67a201c-1266-4d99-922d-b37fa4b331e7": "New_column2"
+    "e67a201c-1266-4d99-922d-b37fa4b331e7": "New_column2",
+    "4ed8f2d9-4c6d-450c-95bd-4c052eb6e716": "New_table7",
+    "a1b1ff8b-ad06-4523-b478-83e3a9bd418e": "New_column",
+    "c3f82b9c-b579-4401-9e3a-b731445676bf": "New_column1",
+    "ea84cf96-f5cd-4053-9de0-3610322dcd07": "New_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -648,7 +736,7 @@
   "creationTS": "2025-04-03T12:51:37.076Z",
   "GUID": "57888e55-593c-43c4-a1a9-fac6c42e0bc2",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-30T14:26:08.619Z",
+  "lastModifTS": "2025-04-30T14:26:22.872Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -716,6 +804,14 @@
             "GUID": "54245417-c82a-4cd8-abeb-188f8ca9c7c1",
             "x": 1000,
             "y": 1000,
+            "width": 197,
+            "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "4ed8f2d9-4c6d-450c-95bd-4c052eb6e716",
+            "x": 1020,
+            "y": 1020,
             "width": 197,
             "height": 87,
             "color": {}
