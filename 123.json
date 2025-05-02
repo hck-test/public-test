@@ -2,92 +2,6 @@
   "modelName": "New Model",
   "collections": [
     {
-      "collectionName": "New Collection",
-      "type": "object",
-      "properties": [
-        {
-          "name": "New Field",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "New Field1",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "54942b2f-92df-450c-ba44-654d2bf8090f",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "3361de04-e627-4b08-9e99-5204d2b4cf8c"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "validationLevel": "Off",
-      "validationAction": "Warn",
-      "storageEngineName": "WiredTiger",
-      "collectionUsers": [],
-      "indexes": [],
-      "collation": {},
-      "sharding": {
-        "unique": true,
-        "collation": "null"
-      },
-      "tags": [
-        {
-          "name": "Security Classification",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "Public"
-            },
-            {
-              "value": "Internal"
-            },
-            {
-              "value": "Confidential"
-            },
-            {
-              "value": "Highly Confidential"
-            }
-          ]
-        },
-        {
-          "name": "PI/SPI",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "PI"
-            },
-            {
-              "value": "SPI"
-            },
-            {
-              "value": "Not PI"
-            }
-          ]
-        }
-      ],
-      "GUID": "fc6c0271-30e1-4099-ae04-6ef77360fcbf",
-      "bucketId": "8f150d77-1d40-4f05-90f6-7fe1a0c1861e"
-    },
-    {
       "collectionName": "New Collection1",
       "type": "object",
       "properties": [
@@ -110,18 +24,6 @@
           "type": "string",
           "color": "#555555",
           "GUID": "cb9d88a5-0df0-49ab-973b-54606ef10781",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "New Field2",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "f5fe49f0-9571-4f7a-82d5-28bd553cbaf1",
           "error": {
             "name": false,
             "code": false
@@ -183,6 +85,92 @@
         }
       ],
       "GUID": "80d4e096-0b58-406d-bb8d-0fcccf8f31e4"
+    },
+    {
+      "collectionName": "New Collection",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New Field",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "color": "#555555",
+          "GUID": "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New Field1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "color": "#555555",
+          "GUID": "54942b2f-92df-450c-ba44-654d2bf8090f",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "3361de04-e627-4b08-9e99-5204d2b4cf8c"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "tags": [
+        {
+          "name": "Security Classification",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "Public"
+            },
+            {
+              "value": "Internal"
+            },
+            {
+              "value": "Confidential"
+            },
+            {
+              "value": "Highly Confidential"
+            }
+          ]
+        },
+        {
+          "name": "PI/SPI",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "PI"
+            },
+            {
+              "value": "SPI"
+            },
+            {
+              "value": "Not PI"
+            }
+          ]
+        }
+      ],
+      "GUID": "fc6c0271-30e1-4099-ae04-6ef77360fcbf",
+      "bucketId": "8f150d77-1d40-4f05-90f6-7fe1a0c1861e"
     }
   ],
   "buckets": [
@@ -245,15 +233,13 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "8f150d77-1d40-4f05-90f6-7fe1a0c1861e": "New_Database",
-    "fc6c0271-30e1-4099-ae04-6ef77360fcbf": "New Collection",
-    "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2": "New Field",
-    "54942b2f-92df-450c-ba44-654d2bf8090f": "New Field1",
-    "0aa128c4-d2cd-4406-b03a-d38356d5fcd1": "New Field2",
     "80d4e096-0b58-406d-bb8d-0fcccf8f31e4": "New Collection1",
     "5c1774d1-52d7-4a02-9a3b-81cebc8cddae": "New Field",
     "cb9d88a5-0df0-49ab-973b-54606ef10781": "New Field1",
-    "f5fe49f0-9571-4f7a-82d5-28bd553cbaf1": "New Field2"
+    "fc6c0271-30e1-4099-ae04-6ef77360fcbf": "New Collection",
+    "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2": "New Field",
+    "54942b2f-92df-450c-ba44-654d2bf8090f": "New Field1",
+    "8f150d77-1d40-4f05-90f6-7fe1a0c1861e": "New_Database"
   },
   "definitions": {
     "type": "definitions",
@@ -278,7 +264,7 @@
   "creationTS": "2025-05-02T11:11:34.019Z",
   "GUID": "fef0fb31-cca6-48b3-b8ec-fcadc24775fc",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-02T11:12:11.278Z",
+  "lastModifTS": "2025-05-02T11:13:47.053Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -307,7 +293,7 @@
             "x": 1633,
             "y": 1145,
             "width": 212,
-            "height": 87,
+            "height": 69,
             "color": {}
           }
         ],
