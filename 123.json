@@ -28,6 +28,14 @@
             "name": false,
             "code": false
           }
+        },
+        {
+          "name": "New Field2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "color": "#555555",
+          "GUID": "62a97cd9-f009-44f0-abe8-25fe87d9ad11"
         }
       ],
       "definitions": {
@@ -236,6 +244,7 @@
     "80d4e096-0b58-406d-bb8d-0fcccf8f31e4": "New Collection1",
     "5c1774d1-52d7-4a02-9a3b-81cebc8cddae": "New Field",
     "cb9d88a5-0df0-49ab-973b-54606ef10781": "New Field1",
+    "62a97cd9-f009-44f0-abe8-25fe87d9ad11": "New Field2",
     "fc6c0271-30e1-4099-ae04-6ef77360fcbf": "New Collection",
     "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2": "New Field",
     "54942b2f-92df-450c-ba44-654d2bf8090f": "New Field1",
@@ -258,13 +267,13 @@
   },
   "sources": [],
   "decorativeSymbols": [],
-  "dbVersion": "15",
+  "dbVersion": "v4.2",
   "dbVendor": "MongoDB",
   "appTarget": "MONGODB",
   "creationTS": "2025-05-02T11:11:34.019Z",
   "GUID": "fef0fb31-cca6-48b3-b8ec-fcadc24775fc",
   "isLineageEnabled": true,
-  "lastModifTS": "2025-05-02T11:15:07.135Z",
+  "lastModifTS": "2025-05-02T11:15:50.535Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -296,7 +305,7 @@
             "x": 1633,
             "y": 1145,
             "width": 212,
-            "height": 69,
+            "height": 87,
             "color": {}
           }
         ],
