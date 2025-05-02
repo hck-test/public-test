@@ -258,13 +258,13 @@
   },
   "sources": [],
   "decorativeSymbols": [],
-  "dbVersion": "8",
+  "dbVersion": "v4.2",
   "dbVendor": "MongoDB",
   "appTarget": "MONGODB",
   "creationTS": "2025-05-02T11:11:34.019Z",
   "GUID": "fef0fb31-cca6-48b3-b8ec-fcadc24775fc",
-  "isLineageEnabled": false,
-  "lastModifTS": "2025-05-02T11:14:13.706Z",
+  "isLineageEnabled": true,
+  "lastModifTS": "2025-05-02T11:15:07.135Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -274,7 +274,10 @@
     "version": "8.1.5"
   },
   "hackoladeMeta": {
-    "customPropertiesUpdated": true
+    "customPropertiesUpdated": true,
+    "validationErrors": {
+      "isLineageEnabled": false
+    }
   },
   "settings": {
     "centralPane": {
