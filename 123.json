@@ -258,7 +258,7 @@
   },
   "sources": [],
   "decorativeSymbols": [],
-  "dbVersion": "v2.6",
+  "dbVersion": "8",
   "dbVendor": "MongoDB",
   "appTarget": "MONGODB",
   "creationTS": "2025-05-02T11:11:34.019Z",
