@@ -1,0 +1,229 @@
+{
+  "modelName": "Address Polyglot",
+  "collections": [
+    {
+      "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+      "collectionName": "Address",
+      "type": "object",
+      "properties": [
+        {
+          "name": "Address ID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "65b54be5-17e3-480b-9543-41cade950030",
+          "error": {}
+        },
+        {
+          "name": "Postal code",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "172ef4de-fb50-4087-a44b-9a34e92b1f39",
+          "foreignCollection": "",
+          "foreignField": [],
+          "description": "A numerical or alphanumeric code assigned to a geographic area to facilitate mail delivery and location identification.",
+          "error": {}
+        },
+        {
+          "name": "City",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "f23a20a2-d7b1-476d-b567-50a67b99f2fc",
+          "foreignCollection": "",
+          "foreignField": [],
+          "description": "Indicates the name of the city or town where the address is located, helping to define the broader geographic region.",
+          "error": {}
+        },
+        {
+          "name": "New attribute",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "81b79afc-1387-4e2e-91fa-20e9b8e72b23",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "fca16002-ccce-45ab-804e-e7e2ec62e4b8"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "bucketId": "",
+      "description": "Represents a physical location, including street details, postal code, and city information. Used to store and manage location-based data for individuals, businesses, or properties."
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7": "Address",
+    "172ef4de-fb50-4087-a44b-9a34e92b1f39": "Postal code",
+    "f23a20a2-d7b1-476d-b567-50a67b99f2fc": "City",
+    "65b54be5-17e3-480b-9543-41cade950030": "Address ID",
+    "81b79afc-1387-4e2e-91fa-20e9b8e72b23": "New attribute"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "b00cf64f-498b-4c96-9cd6-7aa57bf280eb"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "49fcd7e9-0825-4147-a0ae-f09882cad60e"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "ae0e231c-24ce-4e47-af84-c6093003bf3b"
+  },
+  "sources": [],
+  "decorativeSymbols": [
+    {
+      "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+      "name": "Disclaimer",
+      "type": "annotation",
+      "disableInitialFocus": true,
+      "value": "This Model serves as a basic example of reusable definitions within a data modeling context.\n\nIt is intended for illustration purposes only and simplifies the complexities of address data management, omitting certain variations and best practices relevant to real-world applications."
+    }
+  ],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2024-12-31T10:50:34.735Z",
+  "GUID": "251c1cc6-cb0b-4efc-bbc7-56d5a47c2515",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-05-02T11:22:10.845Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.5"
+  },
+  "hackoladeMeta": {
+    "validationErrors": {
+      "description": false
+    }
+  },
+  "description": "This Model serves as a basic example of reusable definitions within a data modeling context.\n\nIt is intended for illustration purposes only and simplifies the complexities of address data management, omitting certain variations and best practices relevant to real-world applications.",
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+            "x": 1263,
+            "y": 1084,
+            "width": 234,
+            "height": 105,
+            "color": {
+              "hex": "#2196F3"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [
+            {
+              "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+              "size": 100,
+              "x": 1040,
+              "y": 1040
+            }
+          ],
+          "buckets": [],
+          "decorativeSymbols": [
+            {
+              "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+              "x": 1229,
+              "y": 1066,
+              "height": 150,
+              "width": 300
+            }
+          ],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [
+          {
+            "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+            "x": 1587,
+            "y": 1013,
+            "height": 154,
+            "width": 366,
+            "color": {
+              "hex": "#fec107"
+            }
+          }
+        ],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
