@@ -29,18 +29,6 @@
             "code": false
           }
         },
-        {
-          "name": "New Field2",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "0aa128c4-d2cd-4406-b03a-d38356d5fcd1",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        }
       ],
       "definitions": {
         "type": "definitions",
