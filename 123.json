@@ -1,312 +1,145 @@
 {
-  "modelName": "New Model",
+  "modelName": "Address Polyglot",
   "collections": [
     {
-      "collectionName": "New Collection1",
+      "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+      "collectionName": "Address",
       "type": "object",
       "properties": [
         {
-          "name": "New Field",
+          "name": "Address ID",
           "hackoladeMeta": {},
           "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
           "type": "string",
-          "color": "#555555",
-          "GUID": "5c1774d1-52d7-4a02-9a3b-81cebc8cddae",
-          "error": {
-            "name": false,
-            "code": false
-          }
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "65b54be5-17e3-480b-9543-41cade950030",
+          "error": {}
         },
         {
-          "name": "New Field1",
+          "name": "Postal code",
           "hackoladeMeta": {},
           "isActivated": true,
+          "primaryKey": false,
+          "required": true,
+          "childType": "varchar",
           "type": "string",
-          "color": "#555555",
-          "GUID": "cb9d88a5-0df0-49ab-973b-54606ef10781",
-          "error": {
-            "name": false,
-            "code": false
-          }
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "172ef4de-fb50-4087-a44b-9a34e92b1f39",
+          "foreignCollection": "",
+          "foreignField": [],
+          "description": "A numerical or alphanumeric code assigned to a geographic area to facilitate mail delivery and location identification.",
+          "error": {}
         },
         {
-          "name": "New Field2",
+          "name": "City",
           "hackoladeMeta": {},
           "isActivated": true,
+          "primaryKey": false,
+          "required": true,
+          "childType": "varchar",
           "type": "string",
-          "color": "#555555",
-          "GUID": "62a97cd9-f009-44f0-abe8-25fe87d9ad11"
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "f23a20a2-d7b1-476d-b567-50a67b99f2fc",
+          "foreignCollection": "",
+          "foreignField": [],
+          "description": "Indicates the name of the city or town where the address is located, helping to define the broader geographic region.",
+          "error": {}
         }
       ],
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "7f21c54a-d66a-41f3-ae5e-dba1e988fbf4"
+        "GUID": "fca16002-ccce-45ab-804e-e7e2ec62e4b8"
       },
       "isActivated": true,
       "additionalProperties": false,
-      "validationLevel": "Off",
-      "validationAction": "Warn",
-      "storageEngineName": "WiredTiger",
-      "collectionUsers": [],
-      "indexes": [],
-      "collation": {},
-      "sharding": {
-        "unique": true,
-        "collation": "null"
-      },
-      "tags": [
-        {
-          "name": "Security Classification",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "Public"
-            },
-            {
-              "value": "Internal"
-            },
-            {
-              "value": "Confidential"
-            },
-            {
-              "value": "Highly Confidential"
-            }
-          ]
-        },
-        {
-          "name": "PI/SPI",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "PI"
-            },
-            {
-              "value": "SPI"
-            },
-            {
-              "value": "Not PI"
-            }
-          ]
-        }
-      ],
-      "GUID": "80d4e096-0b58-406d-bb8d-0fcccf8f31e4"
-    },
-    {
-      "collectionName": "New Collection",
-      "type": "object",
-      "properties": [
-        {
-          "name": "New Field",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "New Field1",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "color": "#555555",
-          "GUID": "54942b2f-92df-450c-ba44-654d2bf8090f",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "3361de04-e627-4b08-9e99-5204d2b4cf8c"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "validationLevel": "Off",
-      "validationAction": "Warn",
-      "storageEngineName": "WiredTiger",
-      "collectionUsers": [],
-      "indexes": [],
-      "collation": {},
-      "sharding": {
-        "unique": true,
-        "collation": "null"
-      },
-      "tags": [
-        {
-          "name": "Security Classification",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "Public"
-            },
-            {
-              "value": "Internal"
-            },
-            {
-              "value": "Confidential"
-            },
-            {
-              "value": "Highly Confidential"
-            }
-          ]
-        },
-        {
-          "name": "PI/SPI",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "PI"
-            },
-            {
-              "value": "SPI"
-            },
-            {
-              "value": "Not PI"
-            }
-          ]
-        }
-      ],
-      "GUID": "fc6c0271-30e1-4099-ae04-6ef77360fcbf",
-      "bucketId": "8f150d77-1d40-4f05-90f6-7fe1a0c1861e"
+      "bucketId": "",
+      "description": "Represents a physical location, including street details, postal code, and city information. Used to store and manage location-based data for individuals, businesses, or properties."
     }
   ],
-  "buckets": [
-    {
-      "name": "New_Database",
-      "type": "bucket",
-      "collectionIds": [
-        "fc6c0271-30e1-4099-ae04-6ef77360fcbf"
-      ],
-      "backgroundColor": {
-        "r": 216,
-        "g": 0,
-        "b": 115,
-        "a": 1
-      },
-      "show": true,
-      "isActivated": true,
-      "tags": [
-        {
-          "name": "Security Classification",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "Public"
-            },
-            {
-              "value": "Internal"
-            },
-            {
-              "value": "Confidential"
-            },
-            {
-              "value": "Highly Confidential"
-            }
-          ]
-        },
-        {
-          "name": "PI/SPI",
-          "orReplace": false,
-          "ifNotExist": false,
-          "allowedValues": [
-            {
-              "value": "PI"
-            },
-            {
-              "value": "SPI"
-            },
-            {
-              "value": "Not PI"
-            }
-          ]
-        }
-      ],
-      "GUID": "8f150d77-1d40-4f05-90f6-7fe1a0c1861e"
-    }
-  ],
+  "buckets": [],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "80d4e096-0b58-406d-bb8d-0fcccf8f31e4": "New Collection1",
-    "5c1774d1-52d7-4a02-9a3b-81cebc8cddae": "New Field",
-    "cb9d88a5-0df0-49ab-973b-54606ef10781": "New Field1",
-    "62a97cd9-f009-44f0-abe8-25fe87d9ad11": "New Field2",
-    "fc6c0271-30e1-4099-ae04-6ef77360fcbf": "New Collection",
-    "9051e6d9-f1cc-4768-8ec1-1b11e22b77f2": "New Field",
-    "54942b2f-92df-450c-ba44-654d2bf8090f": "New Field1",
-    "8f150d77-1d40-4f05-90f6-7fe1a0c1861e": "New_Database"
+    "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7": "Address",
+    "172ef4de-fb50-4087-a44b-9a34e92b1f39": "Postal code",
+    "f23a20a2-d7b1-476d-b567-50a67b99f2fc": "City",
+    "65b54be5-17e3-480b-9543-41cade950030": "Address ID"
   },
   "definitions": {
     "type": "definitions",
     "properties": [],
-    "GUID": "0fcd2e39-ede5-4705-8ec5-b5f9f83540ca"
+    "GUID": "b00cf64f-498b-4c96-9cd6-7aa57bf280eb"
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
     "properties": [],
-    "GUID": "7e93c5ce-5c06-4483-870b-38fc457f433a"
+    "GUID": "49fcd7e9-0825-4147-a0ae-f09882cad60e"
   },
   "externalDefinitions": {
     "type": "externalDefinitions",
     "properties": [],
-    "GUID": "d41df376-0464-49cd-ab8a-d30732b63494"
+    "GUID": "ae0e231c-24ce-4e47-af84-c6093003bf3b"
   },
   "sources": [],
-  "decorativeSymbols": [],
-  "dbVersion": "v3.2",
-  "dbVendor": "Еуіе123",
-  "appTarget": "MONGODB",
-  "creationTS": "2025-05-02T11:11:34.019Z",
-  "GUID": "fef0fb31-cca6-48b3-b8ec-fcadc24775fc",
-  "isLineageEnabled": true,
-  "lastModifTS": "2025-05-02T11:19:34.458Z",
+  "decorativeSymbols": [
+    {
+      "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+      "name": "Disclaimer",
+      "type": "annotation",
+      "disableInitialFocus": true,
+      "value": "This Model serves as a basic example of reusable definitions within a data modeling context.\n\nIt is intended for illustration purposes only and simplifies the complexities of address data management, omitting certain variations and best practices relevant to real-world applications."
+    }
+  ],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2024-12-31T10:50:34.735Z",
+  "GUID": "251c1cc6-cb0b-4efc-bbc7-56d5a47c2515",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-05-02T11:21:35.689Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
     "version": "8.1.5"
   },
   "hackoladeMeta": {
-    "customPropertiesUpdated": true,
     "validationErrors": {
-      "isLineageEnabled": false
+      "description": false
     }
   },
+  "description": "This Model serves as a basic example of reusable definitions within a data modeling context.\n\nIt is intended for illustration purposes only and simplifies the complexities of address data management, omitting certain variations and best practices relevant to real-world applications.",
   "settings": {
     "centralPane": {
       "dbLevel": {
         "erd": [
           {
-            "GUID": "fc6c0271-30e1-4099-ae04-6ef77360fcbf",
-            "x": 1080,
-            "y": 1080,
-            "width": 205,
+            "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+            "x": 1263,
+            "y": 1084,
+            "width": 222,
             "height": 87,
-            "color": {}
-          },
-          {
-            "GUID": "80d4e096-0b58-406d-bb8d-0fcccf8f31e4",
-            "x": 1633,
-            "y": 1145,
-            "width": 212,
-            "height": 87,
-            "color": {}
+            "color": {
+              "hex": "#2196F3"
+            }
           }
         ],
         "erdDefinitions": {
@@ -315,13 +148,7 @@
           "entities": [],
           "decorativeSymbols": []
         },
-        "buckets": [
-          {
-            "x": 1040,
-            "y": 1040,
-            "GUID": "8f150d77-1d40-4f05-90f6-7fe1a0c1861e"
-          }
-        ],
+        "buckets": [],
         "collapsedNodes": [],
         "activeRelationship": "",
         "activeRelationshipFields": {
@@ -331,14 +158,40 @@
         "selectedCollections": [],
         "displayColorPicker": false,
         "graphView": {
-          "erd": [],
+          "erd": [
+            {
+              "GUID": "50ec3adc-dd4a-4ddf-bab7-572b8e9b8bf7",
+              "size": 100,
+              "x": 1040,
+              "y": 1040
+            }
+          ],
           "buckets": [],
-          "decorativeSymbols": [],
+          "decorativeSymbols": [
+            {
+              "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+              "x": 1229,
+              "y": 1066,
+              "height": 150,
+              "width": 300
+            }
+          ],
           "forceLayout": true,
           "defaultLinkLength": 300
         },
         "diagramViews": [],
-        "decorativeSymbols": [],
+        "decorativeSymbols": [
+          {
+            "GUID": "e5521fe8-98de-4f72-bfa0-156a53edd8af",
+            "x": 1587,
+            "y": 1013,
+            "height": 154,
+            "width": 366,
+            "color": {
+              "hex": "#fec107"
+            }
+          }
+        ],
         "nestedCollectionsLayout": "horizontal",
         "options": [],
         "relationshipUpdateDisabled": false
