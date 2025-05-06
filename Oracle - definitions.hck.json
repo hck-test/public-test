@@ -89,6 +89,35 @@
             "bb5ee6a9-cb1e-4df7-9339-44743b113a18"
           ],
           "hackoladeMeta": {}
+        },
+        {
+          "name": "new_column3",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "175041c5-7d42-4bb0-ace9-e9172dbadec3",
+          "error": {
+            "name": false,
+            "code": false
+          }
         }
       ],
       "definitions": {
@@ -153,7 +182,8 @@
     "eb2dbc69-c922-4ab8-b79f-c6b02cec7c72": "new_column1",
     "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
     "7856a2d0-9340-4a92-84a8-a2b21a5e2b33": "new_column2",
-    "bb5ee6a9-cb1e-4df7-9339-44743b113a18": "new_column2"
+    "bb5ee6a9-cb1e-4df7-9339-44743b113a18": "new_column2",
+    "175041c5-7d42-4bb0-ace9-e9172dbadec3": "new_column3"
   },
   "definitions": {
     "type": "definitions",
@@ -325,7 +355,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-24T13:06:58.588Z",
+  "lastModifTS": "2025-05-06T20:39:45.426Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -334,7 +364,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.4"
+    "version": "8.1.6"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -346,7 +376,7 @@
             "x": 1196,
             "y": 1106,
             "width": 345,
-            "height": 141,
+            "height": 159,
             "color": {}
           }
         ],
