@@ -118,6 +118,31 @@
             "name": false,
             "code": false
           }
+        },
+        {
+          "name": "new_column4",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "e08d6383-3a53-4744-87d0-b8b67379e4b9"
         }
       ],
       "definitions": {
@@ -183,7 +208,8 @@
     "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
     "7856a2d0-9340-4a92-84a8-a2b21a5e2b33": "new_column2",
     "bb5ee6a9-cb1e-4df7-9339-44743b113a18": "new_column2",
-    "175041c5-7d42-4bb0-ace9-e9172dbadec3": "new_column3"
+    "175041c5-7d42-4bb0-ace9-e9172dbadec3": "new_column3",
+    "e08d6383-3a53-4744-87d0-b8b67379e4b9": "new_column4"
   },
   "definitions": {
     "type": "definitions",
@@ -355,7 +381,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-06T20:39:45.426Z",
+  "lastModifTS": "2025-05-06T20:40:50.314Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -376,7 +402,7 @@
             "x": 1196,
             "y": 1106,
             "width": 345,
-            "height": 159,
+            "height": 177,
             "color": {}
           }
         ],
