@@ -4651,7 +4651,7 @@
   "creationTS": "2016-06-05T13:22:29.156Z",
   "GUID": "db8a6750-5b42-11e8-9c3f-1d376af9020b",
   "hideModelViews": true,
-  "lastModifTS": "2025-05-09T14:19:32.664Z",
+  "lastModifTS": "2025-05-09T14:20:06.795Z",
   "persistenceSchemaVersion": "8",
   "description": "Schema inferred from the reverse-engineering of a Yelp Challenge dataset available from https://www.yelp.com/dataset_challenge/dataset",
   "comments": "The dataset was downloaded and loaded to a MongoDB, then reverse-engineered with Hackolade.  The relationships were manually documented to enrich the model.\n\nThis schema shows the power of JSON with the embedding of many attributes logically grouped, one form of implicit relationships.  At the same time, the schema is fairly relational, which makes total sense given the conceptual entities.  As a result, there's no denormalization.  Given the size of the collections, it makes sense to perform this kind of traditional foreing key relationships.\n\nNote that only fields found in 100% of the sampled documents are 'required' (and differentiated thanks to a solid line box) as opposed to the other fields with dashed line boxes.\n\nThe sampling parameters were:\n- absolute up to 1000 documents max per collection\n- alpha order of fields",
