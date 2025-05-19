@@ -640,7 +640,7 @@
   "creationTS": "2024-12-02T10:54:42.467Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-19T10:58:21.519Z",
+  "lastModifTS": "2025-05-19T10:58:54.907Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -661,18 +661,18 @@
             "GUID": "6f5388b4-7bc9-4d4b-a681-1621828a863d",
             "x": 1146,
             "y": 1145,
-            "width": 250,
-            "height": 75,
+            "width": 257,
+            "height": 167,
             "color": {
               "hex": "#2196F3"
             }
           },
           {
             "GUID": "f9d1ec85-d5e6-4f33-9071-d37fae935934",
-            "x": 1551,
-            "y": 1277,
-            "width": 250,
-            "height": 75,
+            "x": 1554,
+            "y": 1182,
+            "width": 277,
+            "height": 155,
             "color": {
               "hex": "#2196F3"
             }
@@ -681,8 +681,8 @@
             "GUID": "9ebd2b74-ac55-4fbc-835d-b11728147a79",
             "x": 1077,
             "y": 1436,
-            "width": 250,
-            "height": 75,
+            "width": 290,
+            "height": 210,
             "color": {
               "hex": "#2196F3"
             }
@@ -691,8 +691,8 @@
             "GUID": "ba17db4e-337b-4120-9e4d-80fc99eab625",
             "x": 1554,
             "y": 1375,
-            "width": 250,
-            "height": 75,
+            "width": 271,
+            "height": 175,
             "color": {
               "hex": "#2196F3"
             }
@@ -706,8 +706,8 @@
         },
         "buckets": [
           {
-            "x": 1511,
-            "y": 1237,
+            "x": 1514,
+            "y": 1142,
             "GUID": "660d85a0-860b-4edb-9201-721d54688497"
           },
           {
@@ -734,7 +734,28 @@
         "diagramViews": [],
         "decorativeSymbols": [],
         "nestedCollectionsLayout": "horizontal",
-        "options": [],
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "9ebd2b74-ac55-4fbc-835d-b11728147a79"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "ba17db4e-337b-4120-9e4d-80fc99eab625"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "f9d1ec85-d5e6-4f33-9071-d37fae935934"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "6f5388b4-7bc9-4d4b-a681-1621828a863d"
+          }
+        ],
         "relationshipUpdateDisabled": false
       },
       "collectionLevel": {},
