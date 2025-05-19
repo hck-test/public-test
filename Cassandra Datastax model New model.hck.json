@@ -437,21 +437,6 @@
           "isActivated": true
         },
         {
-          "type": "string",
-          "name": "upload_date",
-          "primaryKey": false,
-          "childType": "char",
-          "GUID": "2e929a06-9287-11e8-b7ec-6ff3feb0dda1",
-          "relationshipType": "",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositeClusteringKey"
-          ],
-          "isActivated": true,
-          "fakerFunction": "faker.date.past()",
-          "error": {}
-        },
-        {
           "mode": "text",
           "type": "string",
           "name": "username",
@@ -743,7 +728,6 @@
     "2e929a03-9287-11e8-b7ec-6ff3feb0dda1": "description",
     "2e929a04-9287-11e8-b7ec-6ff3feb0dda1": "location",
     "2e929a05-9287-11e8-b7ec-6ff3feb0dda1": "tags",
-    "2e929a06-9287-11e8-b7ec-6ff3feb0dda1": "upload_date",
     "2e929a07-9287-11e8-b7ec-6ff3feb0dda1": "username",
     "2e929a08-9287-11e8-b7ec-6ff3feb0dda1": "videoid",
     "2e929a09-9287-11e8-b7ec-6ff3feb0dda1": "videoname",
@@ -775,7 +759,7 @@
   "appTarget": "CASSANDRA",
   "creationTS": "2018-07-28T16:54:02.126Z",
   "GUID": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
-  "lastModifTS": "2025-05-12T10:53:38.540Z",
+  "lastModifTS": "2025-05-19T12:58:53.328Z",
   "persistenceSchemaVersion": "8",
   "description": "",
   "comments": "",
@@ -784,7 +768,7 @@
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Cassandra",
-    "pluginVersion": "0.2.11",
+    "pluginVersion": "0.2.12",
     "pluginEngineVersion": "1.0.0"
   },
   "hackoladeMeta": {
@@ -793,7 +777,7 @@
     }
   },
   "applicationInformation": {
-    "version": "8.1.6"
+    "version": "8.1.7"
   },
   "syncId": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
   "settings": {
