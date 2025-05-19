@@ -170,10 +170,10 @@
     "f94a7721-6dd5-4010-b343-65cf125f8388": "new_table",
     "055890f7-ce9d-4b1a-ab57-03c0af3d7c99": "new_column",
     "eb2dbc69-c922-4ab8-b79f-c6b02cec7c72": "new_column1",
-    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
     "7856a2d0-9340-4a92-84a8-a2b21a5e2b33": "new_column2",
     "bb5ee6a9-cb1e-4df7-9339-44743b113a18": "new_column2",
-    "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1"
+    "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1",
+    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1"
   },
   "definitions": {
     "type": "definitions",
@@ -345,18 +345,19 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-24T12:04:43.316Z",
+  "lastModifTS": "2025-05-19T11:08:50.901Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Oracle",
-    "pluginVersion": "0.2.35",
+    "pluginVersion": "0.2.36",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.4"
+    "version": "8.1.7"
   },
   "hackoladeMeta": {},
+  "polyglotModelPaths": [],
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -367,7 +368,9 @@
             "y": 1106,
             "width": 345,
             "height": 141,
-            "color": {}
+            "color": {
+              "hex": "#2196F3"
+            }
           },
           {
             "GUID": "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a",
@@ -375,7 +378,29 @@
             "y": 1452,
             "width": 300,
             "height": 100,
-            "color": {}
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "9ebd2b74-ac55-4fbc-835d-b11728147a79",
+            "x": 1077,
+            "y": 1436,
+            "width": 290,
+            "height": 210,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "ba17db4e-337b-4120-9e4d-80fc99eab625",
+            "x": 1554,
+            "y": 1375,
+            "width": 271,
+            "height": 175,
+            "color": {
+              "hex": "#2196F3"
+            }
           }
         ],
         "erdDefinitions": {
@@ -384,7 +409,18 @@
           "entities": [],
           "decorativeSymbols": []
         },
-        "buckets": [],
+        "buckets": [
+          {
+            "x": 1514,
+            "y": 1142,
+            "GUID": "660d85a0-860b-4edb-9201-721d54688497"
+          },
+          {
+            "x": 1037,
+            "y": 1396,
+            "GUID": "c56bfb5a-8e27-45fa-a552-fb01705c2a91"
+          }
+        ],
         "collapsedNodes": [],
         "activeRelationship": "",
         "activeRelationshipFields": {
@@ -403,7 +439,28 @@
         "diagramViews": [],
         "decorativeSymbols": [],
         "nestedCollectionsLayout": "horizontal",
-        "options": [],
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "9ebd2b74-ac55-4fbc-835d-b11728147a79"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "ba17db4e-337b-4120-9e4d-80fc99eab625"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "f9d1ec85-d5e6-4f33-9071-d37fae935934"
+          },
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "6f5388b4-7bc9-4d4b-a681-1621828a863d"
+          }
+        ],
         "relationshipUpdateDisabled": false
       },
       "collectionLevel": {},
