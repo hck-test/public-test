@@ -314,6 +314,27 @@
           "isActivated": true,
           "fakerFunction": "faker.internet.userName()",
           "error": {}
+        },
+        {
+          "name": "tax",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "exclusiveMinimum": false,
+          "exclusiveMaximum": false,
+          "primaryKey": false,
+          "mode": "integer",
+          "childType": "numeric",
+          "type": "numeric",
+          "compositeKey": [
+            "compositePartitionKey",
+            "compositeClusteringKey"
+          ],
+          "compositePartitionKey": false,
+          "compositeClusteringKey": false,
+          "error": {
+            "name": false
+          },
+          "GUID": "0e7d7ecb-8448-4b5d-8b51-3204452a0fd4"
         }
       ],
       "type": "object",
@@ -654,7 +675,8 @@
     "2e99ed00-9287-11e8-b7ec-6ff3feb0dda1": "videodb",
     "467d7ef0-9287-11e8-b7ec-6ff3feb0dda1": "fk videos.videoid to video_event.videoid",
     "4bc08ab0-9287-11e8-b7ec-6ff3feb0dda1": "fk video_users.username to video_event.username",
-    "4f390fa0-9287-11e8-b7ec-6ff3feb0dda1": "fk videos.videoid to video_rating.videoid"
+    "4f390fa0-9287-11e8-b7ec-6ff3feb0dda1": "fk videos.videoid to video_rating.videoid",
+    "0e7d7ecb-8448-4b5d-8b51-3204452a0fd4": "tax"
   },
   "definitions": {
     "type": "definitions",
@@ -678,7 +700,7 @@
   "appTarget": "CASSANDRA",
   "creationTS": "2018-07-28T16:54:02.126Z",
   "GUID": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
-  "lastModifTS": "2025-05-19T14:04:40.277Z",
+  "lastModifTS": "2025-05-19T14:07:43.137Z",
   "persistenceSchemaVersion": "8",
   "description": "",
   "comments": "",
