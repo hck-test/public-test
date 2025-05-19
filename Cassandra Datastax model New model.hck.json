@@ -297,34 +297,6 @@
         {
           "mode": "text",
           "type": "string",
-          "name": "firstname",
-          "primaryKey": false,
-          "childType": "char",
-          "GUID": "2e9272f6-9287-11e8-b7ec-6ff3feb0dda1",
-          "relationshipType": "",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositeClusteringKey"
-          ],
-          "isActivated": true
-        },
-        {
-          "mode": "text",
-          "type": "string",
-          "name": "lastname",
-          "primaryKey": false,
-          "childType": "char",
-          "GUID": "2e9272f7-9287-11e8-b7ec-6ff3feb0dda1",
-          "relationshipType": "",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositeClusteringKey"
-          ],
-          "isActivated": true
-        },
-        {
-          "mode": "text",
-          "type": "string",
           "name": "username",
           "primaryKey": true,
           "childType": "char",
@@ -673,8 +645,6 @@
     "2e9272f3-9287-11e8-b7ec-6ff3feb0dda1": "address",
     "2e9272f4-9287-11e8-b7ec-6ff3feb0dda1": "created_date",
     "2e9272f5-9287-11e8-b7ec-6ff3feb0dda1": "email",
-    "2e9272f6-9287-11e8-b7ec-6ff3feb0dda1": "firstname",
-    "2e9272f7-9287-11e8-b7ec-6ff3feb0dda1": "lastname",
     "2e9272f9-9287-11e8-b7ec-6ff3feb0dda1": "username",
     "2e929a02-9287-11e8-b7ec-6ff3feb0dda1": "videos",
     "2e929a03-9287-11e8-b7ec-6ff3feb0dda1": "description",
@@ -708,7 +678,7 @@
   "appTarget": "CASSANDRA",
   "creationTS": "2018-07-28T16:54:02.126Z",
   "GUID": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
-  "lastModifTS": "2025-05-19T13:49:34.856Z",
+  "lastModifTS": "2025-05-19T13:50:34.460Z",
   "persistenceSchemaVersion": "8",
   "description": "",
   "comments": "",
