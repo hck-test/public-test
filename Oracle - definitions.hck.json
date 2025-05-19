@@ -91,7 +91,7 @@
           "hackoladeMeta": {}
         },
         {
-          "name": "new_column3",
+          "name": "123",
           "hackoladeMeta": {},
           "isActivated": true,
           "primaryKey": false,
@@ -99,7 +99,6 @@
           "mode": "varchar2",
           "length": 20,
           "required": false,
-          "alternateKey": false,
           "childType": "char",
           "type": "string",
           "compositeKey": [
@@ -110,12 +109,9 @@
           ],
           "partitionKey": false,
           "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
           "GUID": "175041c5-7d42-4bb0-ace9-e9172dbadec3",
           "error": {
-            "name": false,
-            "code": false
+            "name": false
           },
           "synonym": "char varying"
         }
@@ -181,7 +177,7 @@
     "055890f7-ce9d-4b1a-ab57-03c0af3d7c99": "new_column",
     "eb2dbc69-c922-4ab8-b79f-c6b02cec7c72": "new_column1",
     "7856a2d0-9340-4a92-84a8-a2b21a5e2b33": "new_column2",
-    "175041c5-7d42-4bb0-ace9-e9172dbadec3": "new_column3",
+    "175041c5-7d42-4bb0-ace9-e9172dbadec3": "123",
     "bb5ee6a9-cb1e-4df7-9339-44743b113a18": "new_column2",
     "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1"
   },
@@ -355,7 +351,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-19T10:53:33.759Z",
+  "lastModifTS": "2025-05-19T10:54:01.479Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
