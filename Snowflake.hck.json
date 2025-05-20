@@ -2,23 +2,217 @@
   "modelName": "New model",
   "collections": [
     {
-      "collectionName": "table",
+      "collectionName": "New table",
       "type": "object",
-      "properties": [],
+      "properties": [
+        {
+          "name": "New column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "da2aadcd-6a19-4b7c-870f-566fb78abfc5",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "fa077c64-687d-4d2e-b65a-980026e2f771",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "fieldSecurityClassification": "Public",
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4b30250f-6acb-44a5-a73e-b872cc975ddd",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "ed84e68e-8b56-45a8-9a5c-9c321a8e8d30"
+        "GUID": "d7b5afaf-77e1-4f87-9494-8059ad19c895"
       },
       "isActivated": true,
       "additionalProperties": false,
       "external": false,
+      "tags": [
+        {
+          "name": "Security Classification",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "Public"
+            },
+            {
+              "value": "Internal"
+            },
+            {
+              "value": "Confidential"
+            },
+            {
+              "value": "Highly Confidential"
+            }
+          ]
+        },
+        {
+          "name": "PI/SPI",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "PI"
+            },
+            {
+              "value": "SPI"
+            },
+            {
+              "value": "Not PI"
+            }
+          ]
+        }
+      ],
       "catalog": "",
       "storageSerializationPolicy": "optimized",
-      "GUID": "c3148bd3-9015-49ee-8fd7-3b68f740c675"
+      "entitySecurityClassification": "Public",
+      "GUID": "ab748a38-05ac-41e5-9700-a44e8124e1e7",
+      "bucketId": "57e1dcc6-e13e-481c-8c8f-490ef7311c6a"
     }
   ],
-  "buckets": [],
+  "buckets": [
+    {
+      "name": "New schema",
+      "type": "bucket",
+      "collectionIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "backgroundColor": {
+        "r": 216,
+        "g": 0,
+        "b": 115,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "tags": [
+        {
+          "name": "Security Classification",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "Public",
+              "GUID": "2d68ff0c-0c02-4754-88ac-3c48f239eafb"
+            },
+            {
+              "value": "Internal",
+              "GUID": "abe8d1a6-fdaa-4f2e-a602-dd0991c05d37"
+            },
+            {
+              "value": "Confidential",
+              "GUID": "81c42432-a9bb-4e98-96b3-fb156e1c8bb8"
+            },
+            {
+              "value": "Highly Confidential",
+              "GUID": "b5fcab01-0b11-4674-a5f1-9c4a5e0cf1e9"
+            }
+          ],
+          "GUID": "30f6f903-e533-482f-ae0f-a7c561ca85a7"
+        },
+        {
+          "name": "PI/SPI",
+          "orReplace": false,
+          "ifNotExist": false,
+          "allowedValues": [
+            {
+              "value": "PI",
+              "GUID": "331965a1-02b4-4ac6-bf51-629fcfe6a7d6"
+            },
+            {
+              "value": "SPI",
+              "GUID": "8e9716e4-ee08-4b69-8320-ec6729d5960d"
+            },
+            {
+              "value": "Not PI",
+              "GUID": "c49f3501-54c1-425a-9a88-c106ceea9378"
+            }
+          ],
+          "GUID": "e702bb9a-bc87-427c-bb78-22b846694d80"
+        }
+      ],
+      "indexes": [],
+      "GUID": "57e1dcc6-e13e-481c-8c8f-490ef7311c6a"
+    }
+  ],
   "views": [],
   "relationships": [
     {
@@ -67,8 +261,12 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "c3148bd3-9015-49ee-8fd7-3b68f740c675": "table",
-    "c3fa041d-0893-430c-b798-93ac1b121747": "fk_New table_New column2_to_New table1_New column1"
+    "c3fa041d-0893-430c-b798-93ac1b121747": "fk_New table_New column2_to_New table1_New column1",
+    "57e1dcc6-e13e-481c-8c8f-490ef7311c6a": "New schema",
+    "ab748a38-05ac-41e5-9700-a44e8124e1e7": "New table",
+    "da2aadcd-6a19-4b7c-870f-566fb78abfc5": "New column",
+    "fa077c64-687d-4d2e-b65a-980026e2f771": "New column1",
+    "4b30250f-6acb-44a5-a73e-b872cc975ddd": "New column2"
   },
   "definitions": {
     "type": "definitions",
@@ -92,7 +290,7 @@
   "creationTS": "2025-05-20T13:05:42.208Z",
   "GUID": "29f456ed-c1fd-4218-b42f-77d796ffd144",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-20T13:06:22.994Z",
+  "lastModifTS": "2025-05-20T13:10:51.676Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -109,17 +307,17 @@
       "dbLevel": {
         "erd": [
           {
-            "GUID": "c3148bd3-9015-49ee-8fd7-3b68f740c675",
-            "x": 1129,
-            "y": 1209,
-            "width": 178,
-            "height": 100,
-            "color": {}
-          },
-          {
             "GUID": "4dcedb7f-bd04-407d-b1f5-710e7074ea3d",
             "x": 1544,
             "y": 1080,
+            "width": 210,
+            "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "ab748a38-05ac-41e5-9700-a44e8124e1e7",
+            "x": 1229,
+            "y": 1191,
             "width": 210,
             "height": 87,
             "color": {}
@@ -141,6 +339,11 @@
             "x": 1504,
             "y": 1040,
             "GUID": "a7f86475-e285-4a31-aa5a-ee95d69ffd01"
+          },
+          {
+            "x": 1189,
+            "y": 1151,
+            "GUID": "57e1dcc6-e13e-481c-8c8f-490ef7311c6a"
           }
         ],
         "collapsedNodes": [],
