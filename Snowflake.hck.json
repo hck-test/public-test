@@ -20,11 +20,55 @@
   ],
   "buckets": [],
   "views": [],
-  "relationships": [],
+  "relationships": [
+    {
+      "name": "fk_New table_New column2_to_New table1_New column1",
+      "relationshipType": "Foreign Key",
+      "parentField": [],
+      "parentCardinality": "1",
+      "childField": [],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "",
+      "childCollection": "",
+      "GUID": "c3fa041d-0893-430c-b798-93ac1b121747",
+      "hackoladeStyles": {
+        "GUID": "8a4941eb-e4f6-461c-b684-156fbc9666ce",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1545,
+            "y": 1123.5
+          },
+          {
+            "x": 1430,
+            "y": 1123.5
+          },
+          {
+            "x": 1430,
+            "y": 1123.5
+          },
+          {
+            "x": 1315,
+            "y": 1123.5
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "c3148bd3-9015-49ee-8fd7-3b68f740c675": "table"
+    "c3148bd3-9015-49ee-8fd7-3b68f740c675": "table",
+    "c3fa041d-0893-430c-b798-93ac1b121747": "fk_New table_New column2_to_New table1_New column1"
   },
   "definitions": {
     "type": "definitions",
@@ -46,19 +90,20 @@
   "dbVendor": "Snowflake",
   "appTarget": "Snowflake",
   "creationTS": "2025-05-20T13:05:42.208Z",
-  "GUID": "413e2533-226a-4640-88d4-849f14135e74",
+  "GUID": "29f456ed-c1fd-4218-b42f-77d796ffd144",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-20T13:06:03.997Z",
+  "lastModifTS": "2025-05-20T13:06:22.994Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Snowflake",
-    "pluginVersion": "0.2.26",
+    "pluginVersion": "0.2.27",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
     "version": "8.1.8"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -70,6 +115,14 @@
             "width": 178,
             "height": 100,
             "color": {}
+          },
+          {
+            "GUID": "4dcedb7f-bd04-407d-b1f5-710e7074ea3d",
+            "x": 1544,
+            "y": 1080,
+            "width": 210,
+            "height": 87,
+            "color": {}
           }
         ],
         "erdDefinitions": {
@@ -78,7 +131,18 @@
           "entities": [],
           "decorativeSymbols": []
         },
-        "buckets": [],
+        "buckets": [
+          {
+            "x": 1040,
+            "y": 1040,
+            "GUID": "ecb7f6a0-ad7e-42bf-81ee-f51ef06301b2"
+          },
+          {
+            "x": 1504,
+            "y": 1040,
+            "GUID": "a7f86475-e285-4a31-aa5a-ee95d69ffd01"
+          }
+        ],
         "collapsedNodes": [],
         "activeRelationship": "",
         "activeRelationshipFields": {
