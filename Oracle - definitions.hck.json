@@ -20,7 +20,7 @@
       "GUID": "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a"
     },
     {
-      "collectionName": "TAB1",
+      "collectionName": "TAB2",
       "type": "object",
       "properties": [
         {
@@ -129,7 +129,7 @@
   "idToNameHashTable": {
     "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1",
     "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
-    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB1",
+    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB2",
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
     "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2"
