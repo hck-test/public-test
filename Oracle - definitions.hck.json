@@ -2,7 +2,7 @@
   "modelName": "new_model",
   "collections": [
     {
-      "collectionName": "TAB2",
+      "collectionName": "TAB1",
       "type": "object",
       "properties": [
         {
@@ -127,7 +127,7 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB2",
+    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB1",
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
     "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2",
@@ -165,12 +165,7 @@
           "name": false,
           "code": false
         },
-        "definitionRefs": [
-          [
-            "f94a7721-6dd5-4010-b343-65cf125f8388",
-            "eb2dbc69-c922-4ab8-b79f-c6b02cec7c72"
-          ]
-        ]
+        "definitionRefs": []
       }
     ],
     "GUID": "21e72636-5b48-4f36-b4a0-a1f325807c5f"
@@ -299,7 +294,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T09:56:24.883Z",
+  "lastModifTS": "2025-05-21T09:57:28.577Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -345,6 +340,14 @@
             "color": {
               "hex": "#2196F3"
             }
+          },
+          {
+            "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4",
+            "x": 1322,
+            "y": 1236,
+            "width": 250,
+            "height": 86,
+            "color": {}
           }
         ],
         "erdDefinitions": {
