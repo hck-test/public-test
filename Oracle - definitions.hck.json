@@ -103,7 +103,7 @@
       "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4"
     },
     {
-      "collectionName": "new_table2",
+      "collectionName": "TAB4",
       "type": "object",
       "properties": [
         {
@@ -219,7 +219,7 @@
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
     "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2",
-    "3590d44f-9710-4aaf-9576-23227b4133c8": "new_table2",
+    "3590d44f-9710-4aaf-9576-23227b4133c8": "TAB4",
     "65360dbd-b6e8-472d-9676-95688363fc07": "new_column",
     "46816d47-c1e7-4787-8073-85041fd72d0d": "new_column1",
     "ec10863a-fbaf-4302-ba57-1a599ffd9fad": "new_column2",
@@ -385,7 +385,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T10:02:15.575Z",
+  "lastModifTS": "2025-05-21T10:02:24.554Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
