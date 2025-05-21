@@ -18,6 +18,107 @@
       "duplicated": false,
       "immutable": false,
       "GUID": "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a"
+    },
+    {
+      "collectionName": "TAB1",
+      "type": "object",
+      "properties": [
+        {
+          "name": "TEST",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "required": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "GUID": "413df723-6ccb-42dc-b827-d98fdec5dd75",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "35550a46-6d58-403e-bec1-190ed2809a6f",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "739d881d-a740-42a0-92f8-0587315d5d13",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "b5b456a1-ee74-4360-97a9-3a5520baba0a"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4"
     }
   ],
   "buckets": [],
@@ -27,7 +128,11 @@
   "diagramViews": [],
   "idToNameHashTable": {
     "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1",
-    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1"
+    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
+    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB1",
+    "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
+    "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
+    "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -194,7 +299,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T09:53:14.878Z",
+  "lastModifTS": "2025-05-21T09:55:29.664Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -240,6 +345,14 @@
             "color": {
               "hex": "#2196F3"
             }
+          },
+          {
+            "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4",
+            "x": 1322,
+            "y": 1236,
+            "width": 250,
+            "height": 86,
+            "color": {}
           }
         ],
         "erdDefinitions": {
