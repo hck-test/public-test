@@ -2,24 +2,6 @@
   "modelName": "new_model",
   "collections": [
     {
-      "collectionName": "new_table1",
-      "type": "object",
-      "properties": [],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "64d16743-0756-4df0-8cb2-0ad65babb764"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "temporary": false,
-      "temporaryType": "global",
-      "sharded": false,
-      "duplicated": false,
-      "immutable": false,
-      "GUID": "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a"
-    },
-    {
       "collectionName": "TAB2",
       "type": "object",
       "properties": [
@@ -119,6 +101,24 @@
       "duplicated": false,
       "immutable": false,
       "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4"
+    },
+    {
+      "collectionName": "new_table1",
+      "type": "object",
+      "properties": [],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "64d16743-0756-4df0-8cb2-0ad65babb764"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a"
     }
   ],
   "buckets": [],
@@ -127,12 +127,12 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1",
-    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
     "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB2",
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
-    "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2"
+    "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2",
+    "968bb8f8-67b5-4e4b-84e4-976d3b03ec4a": "new_table1",
+    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1"
   },
   "definitions": {
     "type": "definitions",
@@ -299,7 +299,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T09:55:29.664Z",
+  "lastModifTS": "2025-05-21T09:56:24.883Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -327,11 +327,11 @@
             }
           },
           {
-            "GUID": "9ebd2b74-ac55-4fbc-835d-b11728147a79",
-            "x": 1077,
-            "y": 1436,
-            "width": 290,
-            "height": 210,
+            "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4",
+            "x": 1322,
+            "y": 1236,
+            "width": 250,
+            "height": 86,
             "color": {
               "hex": "#2196F3"
             }
@@ -345,14 +345,6 @@
             "color": {
               "hex": "#2196F3"
             }
-          },
-          {
-            "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4",
-            "x": 1322,
-            "y": 1236,
-            "width": 250,
-            "height": 86,
-            "color": {}
           }
         ],
         "erdDefinitions": {
