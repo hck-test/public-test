@@ -2,7 +2,7 @@
   "modelName": "new_model",
   "collections": [
     {
-      "collectionName": "TAB1",
+      "collectionName": "TAB2",
       "type": "object",
       "properties": [
         {
@@ -127,7 +127,7 @@
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
-    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB1",
+    "5de57b38-505f-4027-9d2f-4eaaab3e41d4": "TAB2",
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
     "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2",
@@ -294,7 +294,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T09:57:28.577Z",
+  "lastModifTS": "2025-05-21T09:57:48.064Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
