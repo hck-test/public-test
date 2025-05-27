@@ -18,7 +18,11 @@
             "compositeClusteringKey"
           ],
           "compositeClusteringKey": true,
-          "isActivated": true
+          "isActivated": true,
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
           "type": "string",
@@ -33,7 +37,11 @@
             "compositeClusteringKey"
           ],
           "compositeClusteringKey": true,
-          "isActivated": true
+          "isActivated": true,
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
           "mode": "text",
@@ -55,7 +63,11 @@
             "compositeClusteringKey"
           ],
           "compositePartitionKey": true,
-          "isActivated": true
+          "isActivated": true,
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
           "mode": "bigint",
@@ -69,11 +81,15 @@
             "compositePartitionKey",
             "compositeClusteringKey"
           ],
-          "isActivated": true
+          "isActivated": true,
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
           "type": "string",
-          "name": "videoid",
+          "name": "photoid",
           "primaryKey": true,
           "childType": "char",
           "GUID": "2e9224d7-9287-11e8-b7ec-6ff3feb0dda1",
@@ -90,7 +106,11 @@
             "compositeClusteringKey"
           ],
           "compositePartitionKey": true,
-          "isActivated": true
+          "isActivated": true,
+          "error": {
+            "name": false,
+            "code": false
+          }
         }
       ],
       "type": "object",
@@ -613,7 +633,7 @@
     "2e9224d4-9287-11e8-b7ec-6ff3feb0dda1": "event_timestamp",
     "2e9224d5-9287-11e8-b7ec-6ff3feb0dda1": "username",
     "2e9224d6-9287-11e8-b7ec-6ff3feb0dda1": "video_timestamp",
-    "2e9224d7-9287-11e8-b7ec-6ff3feb0dda1": "videoid",
+    "2e9224d7-9287-11e8-b7ec-6ff3feb0dda1": "photoid",
     "2e9224d2-9287-11e8-b7ec-6ff3feb0dda1": "video_event",
     "2e924be2-9287-11e8-b7ec-6ff3feb0dda1": "rating_counter",
     "2e924be3-9287-11e8-b7ec-6ff3feb0dda1": "rating_total",
@@ -662,7 +682,7 @@
   "appTarget": "CASSANDRA",
   "creationTS": "2018-07-28T16:54:02.126Z",
   "GUID": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
-  "lastModifTS": "2025-05-07T15:53:26.646Z",
+  "lastModifTS": "2025-05-27T13:55:05.031Z",
   "persistenceSchemaVersion": "8",
   "description": "",
   "comments": "",
@@ -671,12 +691,12 @@
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Cassandra",
-    "pluginVersion": "0.2.11",
+    "pluginVersion": "0.2.12",
     "pluginEngineVersion": "1.0.0"
   },
   "hackoladeMeta": {},
   "applicationInformation": {
-    "version": "8.1.6"
+    "version": "8.1.9"
   },
   "syncId": "d461eae0-9286-11e8-b7ec-6ff3feb0dda1",
   "settings": {
