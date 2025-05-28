@@ -51,7 +51,10 @@
       "readCapacity": 1,
       "writeCapacity": 1,
       "streamViewType": "Keys only",
-      "GUID": "5357b659-2c84-43a5-8ea2-431e2955a903"
+      "GUID": "5357b659-2c84-43a5-8ea2-431e2955a903",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     },
     {
       "collectionName": "New_Table1",
@@ -103,59 +106,10 @@
       "readCapacity": 1,
       "writeCapacity": 1,
       "streamViewType": "Keys only",
-      "GUID": "f7b2f494-36be-4bcb-96a0-e0a245b4fe5d"
-    },
-    {
-      "collectionName": "New_Table2",
-      "type": "object",
-      "properties": [
-        {
-          "name": "New Attribute",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "GUID": "94e5358f-2ff6-49dc-85e0-3ebe0eb356f3",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "New Attribute1",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "GUID": "4cb81795-4978-41af-a703-f588435bf61b",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "New Attribute2",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "GUID": "33852c46-b727-4fca-bee6-5a7279616ac7",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "128f4960-d20f-4ca1-9cac-9865962c2ff5"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "collectionUsers": [],
-      "indexes": [],
-      "readCapacity": 1,
-      "writeCapacity": 1,
-      "streamViewType": "Keys only",
-      "GUID": "58d81493-26f2-422a-afe1-b2dee1e7989c"
+      "GUID": "f7b2f494-36be-4bcb-96a0-e0a245b4fe5d",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     },
     {
       "GUID": "c762ef99-49b7-4906-80e9-47dcda63f86d",
@@ -204,6 +158,9 @@
       "additionalProperties": false,
       "error": {
         "refPath": false
+      },
+      "hackoladeMeta": {
+        "validationErrors": {}
       }
     },
     {
@@ -246,7 +203,10 @@
       "writeCapacity": 1,
       "streamViewType": "Keys only",
       "GUID": "5d904c6e-2673-44d8-9342-8106182ee771",
-      "bucketId": "884689be-c3cb-49aa-b1d3-4049f94e84d5"
+      "bucketId": "884689be-c3cb-49aa-b1d3-4049f94e84d5",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     },
     {
       "GUID": "d9a4816a-85e1-43a6-b42c-037ade57c155",
@@ -666,10 +626,6 @@
     "14bd2c11-960b-4349-ad82-0d1689f27cf7": "New Attribute",
     "c0a9034b-dffd-4d89-9ab4-d78fa33d7749": "New Attribute1",
     "793f4a22-4752-4c93-b14a-0fcc5473ae0c": "New Attribute2",
-    "58d81493-26f2-422a-afe1-b2dee1e7989c": "New_Table2",
-    "94e5358f-2ff6-49dc-85e0-3ebe0eb356f3": "New Attribute",
-    "4cb81795-4978-41af-a703-f588435bf61b": "New Attribute1",
-    "33852c46-b727-4fca-bee6-5a7279616ac7": "New Attribute2",
     "c762ef99-49b7-4906-80e9-47dcda63f86d": "New entity2",
     "4849fce5-5ad2-4c01-9624-9d1805ad88c3": "New_Table3",
     "5d904c6e-2673-44d8-9342-8106182ee771": "New_Table4",
@@ -1686,14 +1642,14 @@
       "normalization": false
     }
   ],
-  "lastModifTS": "2025-05-02T11:29:24.556Z",
+  "lastModifTS": "2025-05-28T15:47:44.202Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.5"
+    "version": "8.1.9"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -1777,6 +1733,26 @@
             "width": 194,
             "height": 69,
             "color": {}
+          },
+          {
+            "GUID": "5357b659-2c84-43a5-8ea2-431e2955a903",
+            "x": 300,
+            "y": 300,
+            "width": 240,
+            "height": 100,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "f7b2f494-36be-4bcb-96a0-e0a245b4fe5d",
+            "x": 400,
+            "y": 400,
+            "width": 240,
+            "height": 100,
+            "color": {
+              "hex": "#2196F3"
+            }
           }
         ],
         "erdDefinitions": {
