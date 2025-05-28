@@ -6,7 +6,7 @@
       "type": "object",
       "properties": [
         {
-          "name": "New Field",
+          "name": "New Field1",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
