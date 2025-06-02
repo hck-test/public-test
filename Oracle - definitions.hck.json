@@ -207,6 +207,112 @@
       "duplicated": false,
       "immutable": false,
       "GUID": "5de57b38-505f-4027-9d2f-4eaaab3e41d4"
+    },
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "bbc89b7c-0193-4889-86f4-87c96137d051",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "d34f9325-1b86-4867-a260-5c42beeaa594",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "unique": false,
+          "mode": "varchar2",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "partitionKey",
+            "compositePartitionKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "partitionKey": false,
+          "compositePartitionKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "7b811c5b-615a-4c88-b9a8-1d6654922baf",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7cddd30b-dbf9-4821-abc8-95ae78610d8d"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "8f535713-ecec-442d-a234-c759a7ab579f"
     }
   ],
   "buckets": [],
@@ -223,7 +329,11 @@
     "413df723-6ccb-42dc-b827-d98fdec5dd75": "TEST",
     "35550a46-6d58-403e-bec1-190ed2809a6f": "new_column1",
     "739d881d-a740-42a0-92f8-0587315d5d13": "new_column2",
-    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1"
+    "2db5677c-b2f1-42d4-9dd2-77b7d9d68364": "new_column1",
+    "8f535713-ecec-442d-a234-c759a7ab579f": "new_table",
+    "bbc89b7c-0193-4889-86f4-87c96137d051": "new_column",
+    "d34f9325-1b86-4867-a260-5c42beeaa594": "new_column1",
+    "7b811c5b-615a-4c88-b9a8-1d6654922baf": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -385,7 +495,7 @@
   "creationTS": "2025-04-24T11:31:46.214Z",
   "GUID": "f1a89d85-c1be-404a-98c5-c70b6d8a0eff",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-05-21T10:02:56.328Z",
+  "lastModifTS": "2025-06-02T14:08:46.904Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -394,7 +504,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.8"
+    "version": "8.2.1"
   },
   "hackoladeMeta": {},
   "polyglotModelPaths": [],
@@ -434,6 +544,14 @@
             "GUID": "3590d44f-9710-4aaf-9576-23227b4133c8",
             "x": 3604.6507394766786,
             "y": 3212.805460750854,
+            "width": 250,
+            "height": 86,
+            "color": {}
+          },
+          {
+            "GUID": "8f535713-ecec-442d-a234-c759a7ab579f",
+            "x": 3184,
+            "y": 3098,
             "width": 250,
             "height": 86,
             "color": {}
