@@ -100,6 +100,58 @@
       "duplicated": false,
       "immutable": false,
       "GUID": "a354035a-4bc2-49ea-8085-0277eec29e8e"
+    },
+    {
+      "collectionName": "New_Table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New Attribute",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "5eaa3d38-3416-406d-901f-680620529764",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New Attribute1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "fb269bf2-4599-4366-98ea-a55947d329d8",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New Attribute2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "16e76d5d-6292-4070-8179-7c713456c2ac",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "9d38bf10-a109-4684-9928-717aa5e9150a"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "collectionUsers": [],
+      "indexes": [],
+      "readCapacity": 1,
+      "writeCapacity": 1,
+      "streamViewType": "Keys only",
+      "GUID": "82457fe9-88d0-4b1a-bd4c-b3b59acb37b5"
     }
   ],
   "buckets": [],
@@ -111,7 +163,11 @@
     "a354035a-4bc2-49ea-8085-0277eec29e8e": "new_table",
     "04117864-c32a-4dd4-a12c-d79a409a6865": "new_column",
     "85e4bcf3-9b4a-46f7-afb3-b027a612663d": "new_column1",
-    "4d1e61fe-a3f9-499b-ae91-ed732e1449d8": "new_column2"
+    "4d1e61fe-a3f9-499b-ae91-ed732e1449d8": "new_column2",
+    "82457fe9-88d0-4b1a-bd4c-b3b59acb37b5": "New_Table",
+    "5eaa3d38-3416-406d-901f-680620529764": "New Attribute",
+    "fb269bf2-4599-4366-98ea-a55947d329d8": "New Attribute1",
+    "16e76d5d-6292-4070-8179-7c713456c2ac": "New Attribute2"
   },
   "definitions": {
     "type": "definitions",
@@ -136,7 +192,7 @@
   "GUID": "430c99c7-2a3b-4d80-9852-bd6785c17891",
   "isLineageEnabled": false,
   "hackoladeMeta": {},
-  "lastModifTS": "2025-06-05T10:53:00.546Z",
+  "lastModifTS": "2025-06-05T10:53:12.008Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -155,6 +211,14 @@
             "y": 40,
             "width": 250,
             "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "82457fe9-88d0-4b1a-bd4c-b3b59acb37b5",
+            "x": 60,
+            "y": 60,
+            "width": 194,
+            "height": 86,
             "color": {}
           }
         ],
