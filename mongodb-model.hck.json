@@ -105,14 +105,6 @@
           "error": {}
         },
         {
-          "name": "c",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "GUID": "3ef74712-04db-4932-8534-8907c4bf33cb",
-          "error": {}
-        },
-        {
           "name": "d",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -272,7 +264,6 @@
     "1facaa4e-9033-4653-a73b-0f0ada69551d": "New Field(6)",
     "04f2b333-fd48-4f57-b852-5d81f3c1d6f0": "a",
     "5d54aa48-16cb-4ffa-88af-7cd7552169b8": "b",
-    "3ef74712-04db-4932-8534-8907c4bf33cb": "c",
     "6584a3fc-98ef-4806-8193-1e3b87402f2e": "d",
     "037e08a6-f98b-49b5-bc1a-31e05aebb765": "e",
     "122f0673-c323-4f2d-a6a4-be8bb5a6b81e": "f",
@@ -308,7 +299,7 @@
   "creationTS": "2024-02-08T14:38:16.542Z",
   "GUID": "aa9ab83d-fb69-453b-bfcd-f981a90cca3c",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-06-19T09:47:08.194Z",
+  "lastModifTS": "2025-06-19T09:47:17.330Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -329,7 +320,7 @@
             "x": 1080,
             "y": 1080,
             "width": 205,
-            "height": 320,
+            "height": 302,
             "color": {}
           },
           {
