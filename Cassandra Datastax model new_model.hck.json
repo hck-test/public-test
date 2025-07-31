@@ -260,11 +260,11 @@
     "ae052dd7-ff75-4755-abf6-04abe5ff02db": "new_column",
     "20a456b5-e295-4865-b84e-7f957009863a": "new_column1",
     "c15216ee-9f6a-4cd2-bd85-0a5a1881c4d3": "new_column2",
-    "a2c0dddb-af11-4c74-87a8-2c31ff5e5df1": "new_keyspace",
     "79fa2645-afa1-42d0-b986-4afa5367331d": "new_table1",
     "12b50cdc-a026-40ba-bdc8-4b4987614234": "new_column",
     "4093db9b-a92b-4995-a260-6f3b6e5da400": "new_column1",
     "42d494e0-2805-4934-94d5-7ae3142db8d4": "new_column2",
+    "a2c0dddb-af11-4c74-87a8-2c31ff5e5df1": "new_keyspace",
     "7cd89abe-38d8-4b35-bafc-c61241f714e4": "fk_new_table1_new_column1_to_new_table_new_column1"
   },
   "definitions": {
@@ -290,7 +290,7 @@
   "creationTS": "2024-11-06T15:45:25.997Z",
   "GUID": "618e0fb9-b60e-4c2a-b105-673b49fbe59d",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-07-31T08:53:21.431Z",
+  "lastModifTS": "2025-07-31T08:56:54.253Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
