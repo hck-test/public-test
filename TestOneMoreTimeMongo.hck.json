@@ -114,6 +114,63 @@
         "collation": "null"
       },
       "GUID": "8b2b2fc3-dfb4-4f41-b005-247e70027a1e"
+    },
+    {
+      "collectionName": "New Collection2",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New Field",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "168da378-ff13-46c8-a5c9-801d36954ab5",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New Field1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "96e385a0-f931-426e-b59e-3bd173d0af60",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New Field2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "5c70ce70-d13f-4af8-a8d0-6f7d6abb5afd",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "771dc887-1788-443c-bcde-e5e0455a83d1"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "9df52eac-6498-4d2b-b347-ff12427cea95"
     }
   ],
   "buckets": [],
@@ -129,7 +186,11 @@
     "8b2b2fc3-dfb4-4f41-b005-247e70027a1e": "New Collection1",
     "7fb97fe7-1e80-497a-bc3a-23651b1867b0": "New Field",
     "4fae2eda-23fd-4741-acde-e23e361a3a8d": "New Field1",
-    "4d64131a-04f5-49b7-9af3-d6ec4eb1a368": "New Field2"
+    "4d64131a-04f5-49b7-9af3-d6ec4eb1a368": "New Field2",
+    "9df52eac-6498-4d2b-b347-ff12427cea95": "New Collection2",
+    "168da378-ff13-46c8-a5c9-801d36954ab5": "New Field",
+    "96e385a0-f931-426e-b59e-3bd173d0af60": "New Field1",
+    "5c70ce70-d13f-4af8-a8d0-6f7d6abb5afd": "New Field2"
   },
   "definitions": {
     "type": "definitions",
@@ -154,14 +215,14 @@
   "creationTS": "2025-04-04T08:16:43.440Z",
   "GUID": "ff9b8b9d-6071-4b68-81e0-9b44b81e77ab",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-04T08:19:57.656Z",
+  "lastModifTS": "2025-06-03T10:19:43.976Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.1"
+    "version": "8.2.1"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -182,6 +243,14 @@
             "y": 1000,
             "width": 212,
             "height": 87,
+            "color": {}
+          },
+          {
+            "GUID": "9df52eac-6498-4d2b-b347-ff12427cea95",
+            "x": 960,
+            "y": 960,
+            "width": 212,
+            "height": 86,
             "color": {}
           }
         ],

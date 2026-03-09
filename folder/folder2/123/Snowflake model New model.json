@@ -32,7 +32,14 @@
           "isCaseSensitive": false,
           "unique": false,
           "GUID": "dae21797-275c-40af-8e2b-dbf2e8fdd6c2",
-          "error": {}
+          "error": {},
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "4a85729c-e900-47d7-b127-f2b68c6c870f",
+          "foreignField": [
+            "4a85729c-e900-47d7-b127-f2b68c6c870f",
+            "860124e0-4459-4eb0-834e-03711ab44fa4"
+          ],
+          "parentRelationship": "7f1649bd-1c52-4f76-9a9e-32ef92191ace"
         }
       ],
       "definitions": {
@@ -170,9 +177,8 @@
             "step_num": 1
           },
           "tPrecision": 9,
-          "primaryKey": false,
-          "required": false,
-          "alternateKey": false,
+          "primaryKey": true,
+          "required": true,
           "fieldSecurityClassification": "Public",
           "childType": "varchar",
           "type": "string",
@@ -184,13 +190,14 @@
           ],
           "clusteringKey": false,
           "partitioningKey": false,
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
           "GUID": "860124e0-4459-4eb0-834e-03711ab44fa4",
           "error": {
             "name": false,
             "code": false
-          }
+          },
+          "childRelationships": [
+            "7f1649bd-1c52-4f76-9a9e-32ef92191ace"
+          ]
         },
         {
           "name": "New column2",
@@ -391,10 +398,67 @@
           "error": {}
         }
       ],
-      "GUID": "b131597e-777e-4e48-bafb-870f2fb3c578"
+      "GUID": "b131597e-777e-4e48-bafb-870f2fb3c578",
+      "ifNotExist": true
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "name": "fk_New table_New column1_to_CASEINSENSATIVETABLE_CASEINSANSATIVECOLUMN",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "4a85729c-e900-47d7-b127-f2b68c6c870f",
+          "860124e0-4459-4eb0-834e-03711ab44fa4"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "e005a0b8-7094-4608-8c60-dbd0731fe708",
+          "dae21797-275c-40af-8e2b-dbf2e8fdd6c2"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "4a85729c-e900-47d7-b127-f2b68c6c870f",
+      "childCollection": "e005a0b8-7094-4608-8c60-dbd0731fe708",
+      "GUID": "7f1649bd-1c52-4f76-9a9e-32ef92191ace",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      },
+      "hackoladeStyles": {
+        "GUID": "1ce62e6c-07db-41ac-8cdf-ecae1effcb5d",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1725,
+            "y": 1302.5
+          },
+          {
+            "x": 1485,
+            "y": 1302.5
+          },
+          {
+            "x": 1485,
+            "y": 1053.5
+          },
+          {
+            "x": 1245,
+            "y": 1053.5
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
   "users": [],
   "diagramViews": [],
   "idToNameHashTable": {
@@ -406,7 +470,8 @@
     "4a85729c-e900-47d7-b127-f2b68c6c870f": "New table",
     "aaca53db-c08b-4df4-b71a-165a0ca45b78": "New column",
     "860124e0-4459-4eb0-834e-03711ab44fa4": "New column1",
-    "8458d919-02ce-4975-92c2-08e7aa3b02cb": "New column2"
+    "8458d919-02ce-4975-92c2-08e7aa3b02cb": "New column2",
+    "7f1649bd-1c52-4f76-9a9e-32ef92191ace": "fk_New table_New column1_to_CASEINSENSATIVETABLE_CASEINSANSATIVECOLUMN"
   },
   "definitions": {
     "type": "definitions",
@@ -430,16 +495,16 @@
   "creationTS": "2025-04-17T15:30:25.495Z",
   "GUID": "5b3b3cb4-83fb-4e60-99c8-d49c567c3271",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-17T15:38:09.349Z",
+  "lastModifTS": "2025-07-31T09:06:35.681Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Snowflake",
-    "pluginVersion": "0.2.26",
+    "pluginVersion": "0.2.32",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.3"
+    "version": "8.3.5"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -448,16 +513,16 @@
         "erd": [
           {
             "GUID": "e005a0b8-7094-4608-8c60-dbd0731fe708",
-            "x": 1050,
-            "y": 1150,
-            "width": 280,
+            "x": 1725,
+            "y": 1279,
+            "width": 287,
             "height": 47,
             "color": {}
           },
           {
             "GUID": "b131597e-777e-4e48-bafb-870f2fb3c578",
-            "x": 1100,
-            "y": 1050,
+            "x": 1296,
+            "y": 1181,
             "width": 278,
             "height": 45,
             "color": {}
@@ -466,7 +531,7 @@
             "GUID": "4a85729c-e900-47d7-b127-f2b68c6c870f",
             "x": 1010,
             "y": 1010,
-            "width": 210,
+            "width": 235,
             "height": 87,
             "color": {}
           }
@@ -479,8 +544,8 @@
         },
         "buckets": [
           {
-            "x": 1010,
-            "y": 1010,
+            "x": 1256,
+            "y": 1141,
             "GUID": "77e81d0b-5d09-4b80-b7fc-1597707304e1"
           }
         ],

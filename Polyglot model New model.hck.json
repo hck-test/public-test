@@ -7,20 +7,17 @@
       "type": "object",
       "properties": [
         {
-          "name": "New attribute",
+          "name": "A",
           "hackoladeMeta": {},
           "isActivated": true,
           "primaryKey": false,
           "required": false,
-          "alternateKey": false,
           "childType": "varchar",
           "type": "string",
           "compositeKey": [
             "compositePrimaryKey",
             "compositeUniqueKey"
           ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
           "GUID": "7f3fe5cf-32e6-41bf-a2d0-774072490d9c",
           "error": {
             "name": false,
@@ -79,7 +76,10 @@
         "GUID": "30d7d221-61cd-42fe-8a06-6f3c0e381916"
       },
       "isActivated": true,
-      "additionalProperties": false
+      "additionalProperties": false,
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     },
     {
       "GUID": "dd91c7f0-3c67-4669-b55a-e66dcfc1ea8b",
@@ -164,7 +164,10 @@
       },
       "isActivated": true,
       "additionalProperties": false,
-      "bucketId": "3ff571f2-f2ab-4609-9e99-cd1ad2f3503b"
+      "bucketId": "3ff571f2-f2ab-4609-9e99-cd1ad2f3503b",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     }
   ],
   "buckets": [
@@ -220,20 +223,20 @@
         "dataType": "",
         "shape": [
           {
-            "x": 1488,
-            "y": 1108.5
+            "x": 1572,
+            "y": 1402.5
           },
           {
-            "x": 1372.5,
-            "y": 1108.5
+            "x": 1409.5,
+            "y": 1402.5
           },
           {
-            "x": 1372.5,
-            "y": 1083.5
+            "x": 1409.5,
+            "y": 1615.5
           },
           {
-            "x": 1257,
-            "y": 1083.5
+            "x": 1247,
+            "y": 1615.5
           }
         ],
         "sides": [
@@ -247,7 +250,7 @@
   "diagramViews": [],
   "idToNameHashTable": {
     "d39cd118-f471-4e6f-936c-36d471bc6c6a": "New entity",
-    "7f3fe5cf-32e6-41bf-a2d0-774072490d9c": "New attribute",
+    "7f3fe5cf-32e6-41bf-a2d0-774072490d9c": "A",
     "3a603ce0-70dc-4aff-8acc-e49e2d90f9f0": "New attribute1",
     "46af20ad-7312-4798-bddd-bc214a1a60c9": "New attribute2",
     "3ff571f2-f2ab-4609-9e99-cd1ad2f3503b": "New container",
@@ -279,7 +282,7 @@
   "creationTS": "2024-12-16T17:20:20.208Z",
   "GUID": "5878aa54-db2c-436d-82e6-78206535d165",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-04-03T12:01:44.835Z",
+  "lastModifTS": "2025-05-26T10:16:55.931Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -288,7 +291,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.1.1"
+    "version": "8.1.9"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -297,8 +300,8 @@
         "erd": [
           {
             "GUID": "d39cd118-f471-4e6f-936c-36d471bc6c6a",
-            "x": 1040,
-            "y": 1040,
+            "x": 1030,
+            "y": 1572,
             "width": 217,
             "height": 87,
             "color": {
@@ -307,8 +310,8 @@
           },
           {
             "GUID": "dd91c7f0-3c67-4669-b55a-e66dcfc1ea8b",
-            "x": 1488,
-            "y": 1065,
+            "x": 1572,
+            "y": 1359,
             "width": 217,
             "height": 87,
             "color": {
@@ -324,8 +327,8 @@
         },
         "buckets": [
           {
-            "x": 1448,
-            "y": 1025,
+            "x": 1532,
+            "y": 1319,
             "GUID": "3ff571f2-f2ab-4609-9e99-cd1ad2f3503b"
           }
         ],
