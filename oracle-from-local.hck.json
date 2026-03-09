@@ -387,7 +387,11 @@
               "fontStyle": []
             }
           },
-          "sources": []
+          "sources": [],
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
           "GUID": "6ff2dab4-e649-433d-a143-b49d1e4b0120",
@@ -411,31 +415,26 @@
               "fontStyle": []
             }
           },
-          "sources": []
+          "sources": [],
+          "error": {
+            "name": false,
+            "code": false
+          }
         },
         {
-          "GUID": "59e3bba1-9d67-45d7-bda8-f51c07891749",
+          "GUID": "02f841ff-9ef9-4e97-97f2-556010848c8c",
           "type": "reference",
-          "name": "new_column2",
-          "ref": "72bf7d2e-7e0e-41f3-937e-de1856c54cef",
+          "name": "New_field",
+          "ref": "26648a6e-394d-4540-bc4b-24026eb3251a",
           "refType": "collectionReference",
           "refIdPath": [
-            "9c946374-7069-429c-bcaf-d2ceed44bb73",
-            "61cb680e-4d92-4878-85da-a201058a2c1f",
-            "fac637b6-eca9-4323-abde-b5b5f60906fd",
-            "b5e523cc-73ba-4d37-849d-bd439524231c",
-            "193bb2a5-97fe-4ef4-bd2b-40ed62b283ea",
-            "e53ac23c-0642-4e3c-aff0-1aacfc406aa8",
-            "72bf7d2e-7e0e-41f3-937e-de1856c54cef"
+            "4b3831fa-439e-4fc9-8573-aef4d3b57df9",
+            "db17d5b0-0b66-4f46-9402-1ecd2b59fe8c",
+            "26648a6e-394d-4540-bc4b-24026eb3251a"
           ],
           "isActivated": true,
-          "hackoladeMeta": {
-            "styles": {
-              "color": "",
-              "fontStyle": []
-            }
-          },
-          "sources": []
+          "hackoladeMeta": {},
+          "error": {}
         }
       ],
       "hackoladeMeta": {
@@ -671,7 +670,8 @@
     "e4dad3f9-6c65-4b9b-bd0f-c7ebd8e63dce": "new_table",
     "70279abe-465d-4171-95b5-839cfece7fe2": "new_column",
     "253f0459-94d6-42dd-a22e-9b9498fac653": "new_column1",
-    "6e6c0217-7b36-4d4a-94ca-c68f7191b5d7": "new_column2"
+    "6e6c0217-7b36-4d4a-94ca-c68f7191b5d7": "new_column2",
+    "02f841ff-9ef9-4e97-97f2-556010848c8c": "New_field"
   },
   "definitions": {
     "type": "definitions",
@@ -2277,7 +2277,7 @@
   "creationTS": "2025-12-29T14:28:00.069Z",
   "GUID": "da42443a-3e69-44d6-b36e-99de7075e1cf",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-09T11:21:45.939Z",
+  "lastModifTS": "2026-03-09T11:39:49.738Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -2286,7 +2286,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.9.7"
+    "version": "8.9.4"
   },
   "hackoladeMeta": {
     "validationErrors": {}
