@@ -360,67 +360,11 @@
   ],
   "views": [
     {
-      "name": "new_view",
+      "name": "vierhsk",
       "isActivated": true,
       "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
       "GUID": "4b6dfa5f-7cff-4fa0-89e0-d381b67eac7a",
       "properties": [
-        {
-          "GUID": "588216ea-8566-44c0-a909-79b8fc40ae75",
-          "type": "reference",
-          "name": "new_column1",
-          "ref": "bc709724-7639-44c6-80be-ac426c7c46ac",
-          "refType": "collectionReference",
-          "refIdPath": [
-            "58d2005b-5dda-4448-a620-75110f95f221",
-            "6ad5119d-f52c-461f-a957-83bf9f1578c7",
-            "1508c655-168a-40e8-a9e2-5a4da3f843da",
-            "e03e2ff3-c311-4af4-ae01-3a73dbe752fe",
-            "f38c06b6-cbe0-47b4-96ae-f927cb1edf7e",
-            "e5fe3df0-e626-4bed-9989-f5b68c07e4f0",
-            "bc709724-7639-44c6-80be-ac426c7c46ac"
-          ],
-          "isActivated": true,
-          "hackoladeMeta": {
-            "styles": {
-              "color": "",
-              "fontStyle": []
-            }
-          },
-          "sources": [],
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "GUID": "6ff2dab4-e649-433d-a143-b49d1e4b0120",
-          "type": "reference",
-          "name": "new_column11",
-          "ref": "973ced77-4a1c-45fd-b2f2-e9b4be3c76e1",
-          "refType": "collectionReference",
-          "refIdPath": [
-            "2b8644d0-932a-4ed4-b4e5-ee562f828db2",
-            "b67c5c2b-c5d6-40d9-b334-04f5e454ca2a",
-            "8ba3bfe8-e16f-42e6-97c8-882f5373b3e5",
-            "d147dc3b-dd43-4859-8ef3-ed655d445ea3",
-            "a2e962c1-22ec-444e-9ea0-a67b713bae7d",
-            "e43c7867-7eaa-4717-9bf4-17f367c35afb",
-            "973ced77-4a1c-45fd-b2f2-e9b4be3c76e1"
-          ],
-          "isActivated": true,
-          "hackoladeMeta": {
-            "styles": {
-              "color": "",
-              "fontStyle": []
-            }
-          },
-          "sources": [],
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
         {
           "GUID": "02f841ff-9ef9-4e97-97f2-556010848c8c",
           "type": "reference",
@@ -431,6 +375,36 @@
             "4b3831fa-439e-4fc9-8573-aef4d3b57df9",
             "db17d5b0-0b66-4f46-9402-1ecd2b59fe8c",
             "26648a6e-394d-4540-bc4b-24026eb3251a"
+          ],
+          "isActivated": true,
+          "hackoladeMeta": {},
+          "error": {}
+        },
+        {
+          "GUID": "b68e3784-8960-41ba-bc3e-8615954ba9bc",
+          "type": "reference",
+          "name": "New_field1",
+          "ref": "26648a6e-394d-4540-bc4b-24026eb3251a",
+          "refType": "collectionReference",
+          "refIdPath": [
+            "4b3831fa-439e-4fc9-8573-aef4d3b57df9",
+            "db17d5b0-0b66-4f46-9402-1ecd2b59fe8c",
+            "26648a6e-394d-4540-bc4b-24026eb3251a"
+          ],
+          "isActivated": true,
+          "hackoladeMeta": {},
+          "error": {}
+        },
+        {
+          "GUID": "39908d23-971b-49b4-b563-d00c51b05264",
+          "type": "reference",
+          "name": "new_column",
+          "ref": "f4b9d0bb-8c36-458f-9f45-7bb45155f7ea",
+          "refType": "collectionReference",
+          "refIdPath": [
+            "b433a8ec-efc4-47d9-81f5-16e49f1939b2",
+            "b67c5c2b-c5d6-40d9-b334-04f5e454ca2a",
+            "f4b9d0bb-8c36-458f-9f45-7bb45155f7ea"
           ],
           "isActivated": true,
           "hackoladeMeta": {},
@@ -663,7 +637,7 @@
     "05a9f13e-8377-4ed2-8fe3-108bcffe8df4": "New_record",
     "594791b0-d7e0-43bb-a506-3b11bcc546e8": "new_schema",
     "80046e2e-79a8-41ea-aa6d-c0b0cf8e1e22": "new_view",
-    "4b6dfa5f-7cff-4fa0-89e0-d381b67eac7a": "new_view",
+    "4b6dfa5f-7cff-4fa0-89e0-d381b67eac7a": "vierhsk",
     "9b01479e-66c1-4939-bf5c-8e1d5105b751": "new_view",
     "d417ed46-e8d5-4706-aecd-4b89652adc01": "fk_new_table1_new_column1_to_new_table2_new_column2",
     "84e94e5f-68af-454a-bf06-410bd4fb87b7": "fk_New_field3_id_to_New_record_New_field3",
@@ -671,7 +645,9 @@
     "70279abe-465d-4171-95b5-839cfece7fe2": "new_column",
     "253f0459-94d6-42dd-a22e-9b9498fac653": "new_column1",
     "6e6c0217-7b36-4d4a-94ca-c68f7191b5d7": "new_column2",
-    "02f841ff-9ef9-4e97-97f2-556010848c8c": "New_field"
+    "02f841ff-9ef9-4e97-97f2-556010848c8c": "New_field",
+    "b68e3784-8960-41ba-bc3e-8615954ba9bc": "New_field1",
+    "39908d23-971b-49b4-b563-d00c51b05264": "new_column"
   },
   "definitions": {
     "type": "definitions",
@@ -2277,7 +2253,7 @@
   "creationTS": "2025-12-29T14:28:00.069Z",
   "GUID": "da42443a-3e69-44d6-b36e-99de7075e1cf",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-09T11:39:49.738Z",
+  "lastModifTS": "2026-03-09T11:43:53.954Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
