@@ -86,7 +86,21 @@
       "GUID": "a096a626-ccde-43fb-b903-de01421b4381",
       "hackoladeMeta": {
         "validationErrors": {}
-      }
+      },
+      "glossaryTerms": [
+        {
+          "GUID": "f6ca744c-634b-466a-a34b-22661856516f",
+          "glossaryTermId": "ce089dc6-4e6b-4852-8478-e721966bdaf8"
+        },
+        {
+          "GUID": "d75c0e23-ff15-4718-8ff5-3d8283505b21",
+          "glossaryTermId": "2a209c97-d9ae-43fc-b723-d6336deb6cca"
+        },
+        {
+          "GUID": "36e18b9c-5c2c-401c-b257-1431f3a2833d",
+          "glossaryTermId": "31e38bed-690e-4d56-9a7b-f72d6a5eaf94"
+        }
+      ]
     },
     {
       "collectionName": "New_table1",
@@ -173,7 +187,14 @@
       "GUID": "e5f6c3ed-5e53-4197-81bc-d148c89c6091",
       "hackoladeMeta": {
         "validationErrors": {}
-      }
+      },
+      "glossaryTerms": [
+        {
+          "GUID": "707d41a9-421c-4d6a-b503-1e1e1b5662b7",
+          "glossaryTermId": "9205173d-f9f0-44a2-9a69-710e80e8994a"
+        }
+      ],
+      "description": "A parcel of private land where mineral rights have been negotiated and leased to the company, with defined start and expiration dates."
     },
     {
       "collectionName": "New_table2",
@@ -221,7 +242,21 @@
           "error": {
             "name": false,
             "code": false
-          }
+          },
+          "glossaryTerms": [
+            {
+              "GUID": "fb796684-b648-480b-b12f-20cebda86928",
+              "glossaryTermId": "86cf6748-aa0c-4397-9098-9c99e483c97c"
+            },
+            {
+              "GUID": "268e7abc-49e7-446e-8209-f4d72a11e809",
+              "glossaryTermId": "1d2cc46d-8b44-4ef6-872c-f02539bf61fd"
+            },
+            {
+              "GUID": "93f7c894-ec1b-4fa4-89ab-6b22e61e6858",
+              "glossaryTermId": "d247c0db-e31b-4826-8b56-c0e0cb564d63"
+            }
+          ]
         },
         {
           "name": "New_column2",
@@ -296,22 +331,228 @@
   },
   "sources": [],
   "decorativeSymbols": [],
+  "businessGlossaries": [
+    {
+      "GUID": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "gold_prospecting_business_glossary_tab.csv",
+      "updatedAt": "2026-04-22T08:56:05Z",
+      "hasHeaders": true,
+      "format": "custom",
+      "columnSeparator": "\t",
+      "kind": "link",
+      "link": "?g=github&o=vt-svong&r=private-test&f=Glossary%2Fgold_prospecting_business_glossary_tab.csv&b=main",
+      "mapping": [
+        {
+          "GUID": "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3",
+          "columnIdentifier": "Identifier",
+          "displayName": "Identifier",
+          "role": "identifier",
+          "isMultipleValue": false,
+          "position": 0,
+          "displayType": "tag",
+          "isMapped": true
+        },
+        {
+          "GUID": "c881bee1-4371-4f15-a92b-20258bde0555",
+          "columnIdentifier": "Term",
+          "displayName": "Term",
+          "role": "name",
+          "isMultipleValue": false,
+          "position": 1,
+          "displayType": "text",
+          "isMapped": true
+        },
+        {
+          "GUID": "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d",
+          "columnIdentifier": "Definition",
+          "displayName": "Description",
+          "role": "description",
+          "isMultipleValue": false,
+          "position": 2,
+          "displayType": "text",
+          "isMapped": true
+        },
+        {
+          "GUID": "20f72601-a05a-4a0f-b651-6c66709a8994",
+          "columnIdentifier": "Domain",
+          "displayName": "123",
+          "isMultipleValue": true,
+          "separator": ";",
+          "position": 3,
+          "displayType": "text",
+          "isMapped": true
+        },
+        {
+          "GUID": "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1",
+          "columnIdentifier": "Synonyms",
+          "displayName": "Synonyms",
+          "position": 4,
+          "displayType": "text",
+          "isMapped": false
+        },
+        {
+          "GUID": "e28b07f2-6464-44f9-a3da-86d1b63c91ad",
+          "columnIdentifier": "GovernanceStatus",
+          "displayName": "GovernanceStatus",
+          "position": 5,
+          "displayType": "text",
+          "isMapped": false
+        },
+        {
+          "GUID": "ea08321c-4e44-4a56-bc84-adb421c943e7",
+          "columnIdentifier": "Source",
+          "displayName": "Source",
+          "position": 6,
+          "displayType": "text",
+          "isMapped": false
+        }
+      ]
+    }
+  ],
+  "businessGlossaryTerms": [
+    {
+      "GUID": "9205173d-f9f0-44a2-9a69-710e80e8994a",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Mineral Lease",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "db943f55-8b61-49ed-84f6-761f599a8b1e",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Mineral Lease",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A parcel of private land where mineral rights have been negotiated and leased to the company, with defined start and expiration dates.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Lease; Mineral rights lease",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "Needs Validation",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Properties section)"
+      },
+      "refIds": [
+        "e5f6c3ed-5e53-4197-81bc-d148c89c6091"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "86cf6748-aa0c-4397-9098-9c99e483c97c",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Boundary Corner",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "523650d1-9507-4c83-acc8-3093ab3b3a3c",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Boundary Corner",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A corner point defining a claim boundary as declared in claim filing; corners are specified using geographic coordinates and may reference natural landmarks as notes.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Corner point; Claim corner",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "Needs Validation",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Boundaries section)"
+      },
+      "refIds": [
+        "690a2b97-2337-4c6a-98d3-a0510ea8a930"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "1d2cc46d-8b44-4ef6-872c-f02539bf61fd",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Claim",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "c339c2d3-76ad-4480-858c-edc4967b91b3",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Claim",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A parcel of public land for which exclusive mineral rights have been filed and approved by the managing agency; claims have corners/boundaries specified for filing and may be active, inactive, or abandoned.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Mining claim; Filed claim",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "Needs Validation",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Properties section)"
+      },
+      "refIds": [
+        "690a2b97-2337-4c6a-98d3-a0510ea8a930"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "d247c0db-e31b-4826-8b56-c0e0cb564d63",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Land Parcel Party Role",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "0c631183-3e59-47f8-b15a-37c17b0619c0",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Land Parcel Party Role",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A role that a party plays with respect to a land parcel (e.g., prospector, partner, worker, stakeholder), used to manage permissions, responsibilities, and business relationships tied to the property.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Parties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Party role; Parcel role",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "Needs Validation",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Party Interest/Involvement section)"
+      },
+      "refIds": [
+        "690a2b97-2337-4c6a-98d3-a0510ea8a930"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "ce089dc6-4e6b-4852-8478-e721966bdaf8",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Private Land",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "a21d6031-fde0-4930-b517-a73de59a9912",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Private Land",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A land parcel owned outright by the company; may include surface ownership alone or both surface and mineral rights and can be used for mining operations, equipment storage, or other activities.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Owned land; Company-owned land",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "Needs Validation",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Properties section)"
+      },
+      "refIds": [
+        "a096a626-ccde-43fb-b903-de01421b4381"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "2a209c97-d9ae-43fc-b723-d6336deb6cca",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Prospect",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "fea18d5b-133e-4456-b5cd-493b4aaf227d",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Prospect",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "A land parcel identified for exploration that may later be converted into a claim, mineral lease, or private land parcel depending on ownership and mineral findings.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Exploration site; Prospect area",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "In Review",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Properties section)"
+      },
+      "refIds": [
+        "a096a626-ccde-43fb-b903-de01421b4381"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "31e38bed-690e-4d56-9a7b-f72d6a5eaf94",
+      "glossaryId": "baaeda07-2f07-4c8d-a2ad-7ce8b8d1ec0b",
+      "name": "Parcel Conversion",
+      "properties": {
+        "cd79ddf1-bdaf-4390-90cc-2428da5a1ef3": "59f2c9a1-2d1b-49e8-8978-498cec95fabe",
+        "c881bee1-4371-4f15-a92b-20258bde0555": "Parcel Conversion",
+        "bb9e3dbb-0193-4f1a-bf6b-910efbf79f5d": "The process of converting all or part of a prospect into a claim, mineral lease, or private land parcel once sufficient minerals are confirmed; the original prospect and its details must be retained for history.",
+        "20f72601-a05a-4a0f-b651-6c66709a8994": "Properties",
+        "8bfa4ed1-d094-495f-aa0b-cb4bd3d18fb1": "Prospect conversion; Reclassification",
+        "e28b07f2-6464-44f9-a3da-86d1b63c91ad": "In Review",
+        "ea08321c-4e44-4a56-bc84-adb421c943e7": "Gold Prospecting Narrative (Conversion section)"
+      },
+      "refIds": [
+        "a096a626-ccde-43fb-b903-de01421b4381"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    }
+  ],
   "dbVersion": "v2",
   "dbVendor": "BigQuery",
   "appTarget": "BigQuery",
   "creationTS": "2025-06-02T13:35:10.714Z",
   "GUID": "77cc5d69-cdc5-44cd-b376-b975ed008ed7",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-12-04T15:29:38.573Z",
+  "lastModifTS": "2026-08-17T11:31:44.160Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "BigQuery",
-    "pluginVersion": "0.2.18",
+    "pluginVersion": "0.2.30",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.7.2"
+    "version": "8.12.9"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -328,8 +569,8 @@
           },
           {
             "GUID": "e5f6c3ed-5e53-4197-81bc-d148c89c6091",
-            "x": 1060,
-            "y": 1060,
+            "x": 1443,
+            "y": 1004,
             "width": 197,
             "height": 86,
             "color": {}
@@ -338,8 +579,8 @@
             "GUID": "02a0f575-af0d-4e00-ab70-bd3574fb15b4",
             "x": 1328,
             "y": 1321,
-            "width": 197,
-            "height": 86,
+            "width": 324,
+            "height": 196,
             "color": {}
           }
         ],
@@ -368,7 +609,13 @@
         "diagramViews": [],
         "decorativeSymbols": [],
         "nestedCollectionsLayout": "horizontal",
-        "options": [],
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "02a0f575-af0d-4e00-ab70-bd3574fb15b4"
+          }
+        ],
         "relationshipUpdateDisabled": false
       },
       "collectionLevel": {},
