@@ -164,7 +164,29 @@
       "bucketId": "57e1dcc6-e13e-481c-8c8f-490ef7311c6a",
       "hackoladeMeta": {
         "validationErrors": {}
-      }
+      },
+      "glossaryTerms": [
+        {
+          "GUID": "663c495d-a586-4921-a5dc-7bbd682ed3e0",
+          "glossaryTermId": "138a85f0-0003-4552-bda0-8e0533bf94ac"
+        },
+        {
+          "GUID": "8b7e7cc9-d23b-42b3-84b3-2714dd23f766",
+          "glossaryTermId": "83208277-212c-4cf4-bf85-983c6355139a"
+        },
+        {
+          "GUID": "0e59f2e9-f3b2-4042-ad3a-0507e43e6f8a",
+          "glossaryTermId": "c3f38c01-935b-41a6-aea5-63e9ee26b05d"
+        },
+        {
+          "GUID": "f9087645-7972-4095-ba00-fdf92491103a",
+          "glossaryTermId": "e8c5cbf0-b0fd-47e6-a32a-f597a31d4a40"
+        },
+        {
+          "GUID": "78a84cc1-fcfb-405e-a26b-f9a55452df28",
+          "glossaryTermId": "e0b30280-8100-4a70-be73-2d2290d42b37"
+        }
+      ]
     },
     {
       "isActivated": true,
@@ -808,16 +830,26 @@
         {
           "GUID": "d1e7ac71-0ca1-4eac-b308-ad8d5de3ae28",
           "columnIdentifier": "Domain",
-          "displayName": "Domain",
+          "displayName": "aaa",
+          "isMultipleValue": false,
           "position": 3,
           "displayType": "text",
-          "isMapped": false
+          "isMapped": true
+        },
+        {
+          "GUID": "9156eabb-7e3e-48d3-ba52-f41350879a54",
+          "columnIdentifier": "Source",
+          "displayName": "bbbb",
+          "isMultipleValue": false,
+          "position": 4,
+          "displayType": "text",
+          "isMapped": true
         },
         {
           "GUID": "b15b0837-f495-48e3-8f68-3087c59d86b7",
           "columnIdentifier": "Synonyms",
           "displayName": "Synonyms",
-          "position": 4,
+          "position": 5,
           "displayType": "text",
           "isMapped": false
         },
@@ -825,14 +857,6 @@
           "GUID": "cb65d4eb-74fd-461d-b94d-8f05d28323ec",
           "columnIdentifier": "GovernanceStatus",
           "displayName": "GovernanceStatus",
-          "position": 5,
-          "displayType": "text",
-          "isMapped": false
-        },
-        {
-          "GUID": "9156eabb-7e3e-48d3-ba52-f41350879a54",
-          "columnIdentifier": "Source",
-          "displayName": "Source",
           "position": 6,
           "displayType": "text",
           "isMapped": false
@@ -890,17 +914,18 @@
           "isMapped": true
         },
         {
+          "GUID": "19ca585a-81b3-460a-8c56-30b27d1bb2a5",
+          "columnIdentifier": "GovernanceStatus",
+          "displayName": "asasd",
+          "isMultipleValue": false,
+          "position": 4,
+          "displayType": "tag",
+          "isMapped": true
+        },
+        {
           "GUID": "90e79e22-42b3-4fe1-9689-582db23b0894",
           "columnIdentifier": "Domain",
           "displayName": "Domain",
-          "position": 4,
-          "displayType": "text",
-          "isMapped": false
-        },
-        {
-          "GUID": "19ca585a-81b3-460a-8c56-30b27d1bb2a5",
-          "columnIdentifier": "GovernanceStatus",
-          "displayName": "GovernanceStatus",
           "position": 5,
           "displayType": "text",
           "isMapped": false
@@ -916,13 +941,104 @@
       ]
     }
   ],
-  "businessGlossaryTerms": [],
+  "businessGlossaryTerms": [
+    {
+      "GUID": "138a85f0-0003-4552-bda0-8e0533bf94ac",
+      "glossaryId": "b6a67b5b-2f86-4353-a0b8-4d60f98dd11a",
+      "name": "Claim",
+      "properties": {
+        "83436cd5-9da9-46b2-bcb0-ad61ebe4428c": "c339c2d3-76ad-4480-858c-edc4967b91b3",
+        "2ed813c7-5433-4cc6-b0ed-557999e2ec77": "Claim",
+        "4b4f40bb-dbb8-44ec-ad7a-8e440a0a7563": "A parcel of public land for which exclusive mineral rights have been filed and approved by the managing agency; claims have corners/boundaries specified for filing and may be active, inactive, or abandoned.",
+        "41bd3793-acda-4671-b9fe-eab5abf664bd": "Mining claim; Filed claim",
+        "90e79e22-42b3-4fe1-9689-582db23b0894": "Properties",
+        "19ca585a-81b3-460a-8c56-30b27d1bb2a5": "Needs Validation",
+        "61b915d3-cd7c-44e9-bbb4-a55d11e4d4ab": "Gold Prospecting Narrative (Properties section)"
+      },
+      "refIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "83208277-212c-4cf4-bf85-983c6355139a",
+      "glossaryId": "b6a67b5b-2f86-4353-a0b8-4d60f98dd11a",
+      "name": "Land Parcel Status",
+      "properties": {
+        "83436cd5-9da9-46b2-bcb0-ad61ebe4428c": "7e8f1823-e108-44e3-aca6-365ebceb7c5b",
+        "2ed813c7-5433-4cc6-b0ed-557999e2ec77": "Land Parcel Status",
+        "4b4f40bb-dbb8-44ec-ad7a-8e440a0a7563": "A governance/operational state of a land parcel. Claims can be active, inactive, or abandoned; prospects, mineral leases, and private land parcels may be active or inactive.",
+        "41bd3793-acda-4671-b9fe-eab5abf664bd": "Parcel status; Property status",
+        "90e79e22-42b3-4fe1-9689-582db23b0894": "Properties",
+        "19ca585a-81b3-460a-8c56-30b27d1bb2a5": "Needs Validation",
+        "61b915d3-cd7c-44e9-bbb4-a55d11e4d4ab": "Gold Prospecting Narrative (Boundaries section)"
+      },
+      "refIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "c3f38c01-935b-41a6-aea5-63e9ee26b05d",
+      "glossaryId": "b6a67b5b-2f86-4353-a0b8-4d60f98dd11a",
+      "name": "Party",
+      "properties": {
+        "83436cd5-9da9-46b2-bcb0-ad61ebe4428c": "55c70ca7-6659-4711-8df2-10d53713a661",
+        "2ed813c7-5433-4cc6-b0ed-557999e2ec77": "Party",
+        "4b4f40bb-dbb8-44ec-ad7a-8e440a0a7563": "An individual or organization associated with mining operations (e.g., partners, contractors, workers, laboratories, refineries, surveyors), with contact details and notes.",
+        "41bd3793-acda-4671-b9fe-eab5abf664bd": "Person; Organization; Entity",
+        "90e79e22-42b3-4fe1-9689-582db23b0894": "Parties",
+        "19ca585a-81b3-460a-8c56-30b27d1bb2a5": "Needs Validation",
+        "61b915d3-cd7c-44e9-bbb4-a55d11e4d4ab": "Gold Prospecting Narrative (Party Details section)"
+      },
+      "refIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "e8c5cbf0-b0fd-47e6-a32a-f597a31d4a40",
+      "glossaryId": "b6a67b5b-2f86-4353-a0b8-4d60f98dd11a",
+      "name": "Land Parcel Point",
+      "properties": {
+        "83436cd5-9da9-46b2-bcb0-ad61ebe4428c": "b26957e6-d44b-4f2b-9248-8f3151311260",
+        "2ed813c7-5433-4cc6-b0ed-557999e2ec77": "Land Parcel Point",
+        "4b4f40bb-dbb8-44ec-ad7a-8e440a0a7563": "A geographic point used to define the outline of a parcel boundary and to store mapping and legal description notes.",
+        "41bd3793-acda-4671-b9fe-eab5abf664bd": "Boundary point; GPS point",
+        "90e79e22-42b3-4fe1-9689-582db23b0894": "Properties",
+        "19ca585a-81b3-460a-8c56-30b27d1bb2a5": "Needs Validation",
+        "61b915d3-cd7c-44e9-bbb4-a55d11e4d4ab": "Gold Prospecting Narrative (Boundaries section)"
+      },
+      "refIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    },
+    {
+      "GUID": "e0b30280-8100-4a70-be73-2d2290d42b37",
+      "glossaryId": "b6a67b5b-2f86-4353-a0b8-4d60f98dd11a",
+      "name": "Parcel Conversion",
+      "properties": {
+        "83436cd5-9da9-46b2-bcb0-ad61ebe4428c": "59f2c9a1-2d1b-49e8-8978-498cec95fabe",
+        "2ed813c7-5433-4cc6-b0ed-557999e2ec77": "Parcel Conversion",
+        "4b4f40bb-dbb8-44ec-ad7a-8e440a0a7563": "The process of converting all or part of a prospect into a claim, mineral lease, or private land parcel once sufficient minerals are confirmed; the original prospect and its details must be retained for history.",
+        "41bd3793-acda-4671-b9fe-eab5abf664bd": "Prospect conversion; Reclassification",
+        "90e79e22-42b3-4fe1-9689-582db23b0894": "Properties",
+        "19ca585a-81b3-460a-8c56-30b27d1bb2a5": "In Review",
+        "61b915d3-cd7c-44e9-bbb4-a55d11e4d4ab": "Gold Prospecting Narrative (Conversion section)"
+      },
+      "refIds": [
+        "ab748a38-05ac-41e5-9700-a44e8124e1e7"
+      ],
+      "updatedAt": "2026-04-22T08:56:05Z"
+    }
+  ],
   "dbVendor": "Snowflake",
   "appTarget": "Snowflake",
   "creationTS": "2025-05-20T13:11:57.926Z",
   "GUID": "29f456ed-c1fd-4218-b42f-77d796ffd144",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-08-17T11:43:52.057Z",
+  "lastModifTS": "2026-08-17T16:41:06.388Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
